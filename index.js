@@ -18,7 +18,7 @@ bot.start((ctx) => {
     console.log('start');
     // file.on('finish', function() {
       // console.log('fi');
-      bot.telegram.sendVideo('@hakina_watch',{source:response}).catch((e)=>{
+      bot.telegram.sendVideo('@hakina_watch',{source:response},{supports_streaming:true}).catch((e)=>{
         console.log(e);
       })
     // });
