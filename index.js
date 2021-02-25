@@ -15,7 +15,7 @@ const fs = require('fs');
 
 bot.start((ctx) => {
   https.get(url, function(response) {
-    console.log('start');
+    console.log('star2');
     // file.on('finish', function() {
       // console.log('fi');
       bot.telegram.sendVideo('@hakina_watch',{source:response},{supports_streaming:true}).catch((e)=>{
