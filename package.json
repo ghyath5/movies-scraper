@@ -1,0 +1,19 @@
+{
+  "name": "movies-scraper",
+  "version": "1.0.0",
+  "description": "\"# movies-scraper\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/ghyath5/movies-scraper#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "tdlnode": "^1.2.0"
+  }
+}
