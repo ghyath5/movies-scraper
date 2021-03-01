@@ -55,7 +55,7 @@ Scraper.prototype.start = async function () {
     })
     this.page = (await this.browser.pages())[0];
     logger('start','Start.')
-    this.sendMessage(`Scraper started!`)
+    await this.sendMessage(`Scraper started!`)
     this.clickMovie()
 }
 
@@ -95,6 +95,7 @@ Scraper.prototype.clickMovie = async function () {
     this.sendMessage(`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
     logger('clickMovie',`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
     await this.page.goto(`https://lake.egybest.kim/movies/?page=${this.pageNumber}`, { waitUntil: 'networkidle2', timeout:60000});
+    await this.page.waitForSelector(`.movies a:nth-child(${this.movieNumber})`)
     let el = await this.page.$$(`.movies a:nth-child(${this.movieNumber})`)
     if (this.movieNumber >= 12) {
         this.pageNumber++
