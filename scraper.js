@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer');
+const proxyChain = require('proxy-chain');
 const fs = require("fs");
 
 const logger = (func, msg) => {
@@ -47,10 +48,12 @@ Scraper.prototype.stop = function(){
     this.page = null
 }
 Scraper.prototype.start = async function () {
+    const oldProxyUrl = 'http://cubeecjo-dest:h078sbs3uj0u@193.8.56.119:9183';
+    const newProxyUrl = await proxyChain.anonymizeProxy(oldProxyUrl);
     this.browser = await puppeteer.launch({
-        headless: true,
+        headless: false,
         slowMo: 400,
-        args: [],
+        args: [`--proxy-server=${newProxyUrl}`],
         defaultViewport: null
     })
     this.page = (await this.browser.pages())[0];
