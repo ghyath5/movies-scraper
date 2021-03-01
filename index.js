@@ -29,7 +29,7 @@ bot.command('getfile',(ctx)=>{
 	if(ctx.from.id != 566571423)return;
 	ctx.replyWithDocument({source:'./movies.json'})
 })
-app.listen(4000,()=>{
+app.listen((process.env.PORT || 4000),()=>{
 	console.log('Listen started');
 })
 
