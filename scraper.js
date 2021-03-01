@@ -10,8 +10,8 @@ async function getHrefs(page, selector) {
 }
 
 function Scraper(bot) {
-    this.pageNumber = 5
-    this.movieNumber = 11
+    this.pageNumber = 7
+    this.movieNumber = 3
     this.qualities = []
     this.currentQality = 0
     this.movie = {qualities:[]}
