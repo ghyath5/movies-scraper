@@ -9,6 +9,8 @@ app.get('/getfile',(req,res)=>{
 	if(!req.query || req.query.pass !== 'lilili123')return res.send(false);
 	res.sendFile(__dirname+'/movies.json')
 })
+const { createProxyMiddleware } = require('http-proxy-middleware');
+app.use('/test', createProxyMiddleware({ target: 'https://lake.egybest.kim/movies/?page=1', changeOrigin: true }));
 
 const Scraper = require('./scraper')
 const scraper = new Scraper(bot)
