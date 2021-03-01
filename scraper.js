@@ -10,8 +10,8 @@ async function getHrefs(page, selector) {
 }
 
 function Scraper(bot) {
-    this.pageNumber = 1
-    this.movieNumber = 0
+    this.pageNumber = 5
+    this.movieNumber = 11
     this.qualities = []
     this.currentQality = 0
     this.movie = {qualities:[]}
@@ -89,6 +89,7 @@ Scraper.prototype.clickMovie = async function () {
         fs.writeFile('movies.json', JSON.stringify(movies,null, 4), (err, data) => {
             //handle result
             this.sendMessage(`Name: ${movie.name}\nQualities: ${movie.qualities.map(u=>u.name).join()}`)
+            this.bot.telegram.sendDocument(566571423,{source:'./movies.json'})
             console.log('Movie added to file');
         });
     }
