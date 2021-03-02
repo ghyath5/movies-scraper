@@ -10,8 +10,8 @@ async function getHrefs(page, selector) {
 }
 
 function Scraper(bot) {
-    this.pageNumber = 8
-    this.movieNumber = 11
+    this.pageNumber = 11
+    this.movieNumber = 5
     this.qualities = []
     this.currentQality = 0
     this.movie = {qualities:[]}
@@ -214,6 +214,7 @@ Scraper.prototype.getLink = async function (page) {
     if(this.tries >= 5){
         logger('getLink',`failed to get link skipping...`)
         this.sendMessage(`!!Fails!!: ${this.movie.name} - ${quality.name}`)
+        this.tries = 0;
         return this.isQualitiesDone()
     }
     if (await page.$('a.bigbutton._reload')) {
