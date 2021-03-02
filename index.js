@@ -1,7 +1,7 @@
 require('dotenv').config()
 const {Telegraf} = require('telegraf');
 const express = require('express');
-let bot = new Telegraf(process.env.BOT_TOKEN,{})
+let bot = new Telegraf(process.env.BOT_TOKEN)
 bot.launch()
 const app = express()
 
@@ -30,3 +30,5 @@ app.listen((process.env.PORT || 4000),()=>{
 	console.log('Listen started');
 })
 
+process.once('SIGINT', () => bot.stop('SIGINT'))
+process.once('SIGTERM', () => bot.stop('SIGTERM'))
