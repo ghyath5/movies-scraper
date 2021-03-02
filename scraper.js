@@ -86,14 +86,14 @@ Scraper.prototype.browserPages = async function () {
 }
 Scraper.prototype.clickMovie = async function () {
     if(this.movie.qualities.length){
-        const movies = require('./movies.json');
+        const movies = require('/var/movies.json');
         let movie = {...this.movie}
         movies.push(movie)
-        fs.writeFile('movies.json', JSON.stringify(movies,null, 4), (err, data) => {
+        fs.writeFile('/var/movies.json', JSON.stringify(movies,null, 4), (err, data) => {
             //handle result
             this.sendMessage(`Name: ${movie.name}\nQualities: ${movie.qualities.map(u=>u.name).join()}`)
             this.bot.telegram.sendMessage(566571423,movie.name)
-            this.bot.telegram.sendDocument(566571423,{source:'./movies.json'})
+            this.bot.telegram.sendDocument(566571423,{source:'/var/movies.json'})
             console.log('Movie added to file');
         });
     }

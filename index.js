@@ -7,7 +7,7 @@ const app = express()
 
 app.get('/getfile',(req,res)=>{
 	if(!req.query || req.query.pass !== 'lilili123')return res.send(false);
-	res.sendFile(__dirname+'/movies.json')
+	res.sendFile('/var/movies.json')
 })
 
 const Scraper = require('./scraper')
@@ -27,7 +27,7 @@ bot.command('stop',(ctx)=>{
 })
 bot.command('getfile',(ctx)=>{
 	if(ctx.from.id != 566571423)return;
-	ctx.replyWithDocument({source:'./movies.json'})
+	ctx.replyWithDocument({source:'/var/movies.json'})
 })
 app.listen((process.env.PORT || 4000),()=>{
 	console.log('Listen started');
