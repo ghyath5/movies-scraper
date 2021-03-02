@@ -15,6 +15,7 @@ async function waitFor(ms){
 function Scraper(bot) {
     this.pageNumber = (process.env.START_PAGE_NUMBER || 37)
     this.movieNumber = (process.env.START_MOVIE_NUMBER || 0)
+    this.endPageNumber = (process.env.STOP_PAGE_NUMBER || 380)
     this.qualities = []
     this.currentQality = 0
     this.movie = {qualities:[]}
@@ -51,7 +52,7 @@ Scraper.prototype.stop = function(){
     this.page = null
 }
 Scraper.prototype.start = async function () {
-    const oldProxyUrl = 'http://cubeecjo-dest:h078sbs3uj0u@193.8.56.119:9183';
+    const oldProxyUrl = process.env.PROXY || 'http://cubeecjo-dest:h078sbs3uj0u@193.8.56.119:9183';
     const newProxyUrl = await proxyChain.anonymizeProxy(oldProxyUrl);
     this.browser = await puppeteer.launch({
         headless: true,
@@ -85,6 +86,9 @@ Scraper.prototype.browserPages = async function () {
     return await this.browser.pages()
 }
 Scraper.prototype.clickMovie = async function () {
+    if(this.endPageNumber <= this.pageNumber){
+        return this.sendMessage(`Instance Done!!!!`)
+    }
     if(this.movie.qualities.length){
         const movies = require('/var/movies.json');
         let movie = {...this.movie}
