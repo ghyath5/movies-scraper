@@ -8,10 +8,13 @@ const logger = (func, msg) => {
 async function getHrefs(page, selector) {
     return await page.$$eval(selector, anchors => [].map.call(anchors, a => a.href));
 }
+async function waitFor(ms){
+    return await new Promise((r)=>setTimeout(()=>{r(true)},ms))
+}
 
 function Scraper(bot) {
-    this.pageNumber = 11
-    this.movieNumber = 5
+    this.pageNumber = 13
+    this.movieNumber = 12
     this.qualities = []
     this.currentQality = 0
     this.movie = {qualities:[]}
@@ -106,12 +109,10 @@ Scraper.prototype.clickMovie = async function () {
         this.pageNumber++
         this.movieNumber = 0;
     }
-    this.onPageResponse()
     await el[0].click();
     await this.page.waitForNavigation()
     logger('clickMovie', 'Clicked')
-    // await this.focus(1)//movies page
-    
+    this.onPageResponse()
 }
 Scraper.prototype.goToDownloadPage = async function(){
     logger('goToDownloadPage','Go download page')
@@ -131,26 +132,32 @@ Scraper.prototype.getQualitiesUrls = async function () {
     if(!this.page.url().includes('/movie/')){
         return logger('getQualities','Not in correct page');
     }
-    this.getMovieDetails(this.page)
-    logger('getQualities','Getting qualities...')
-    const qalitiesTableData = await this.page.evaluate(
-        () => Array.from(
-          document.querySelectorAll('table.dls_table tbody tr'),
-          row => Array.from(row.querySelectorAll('td'), cell => cell.innerText)
-        )
-    );
-    let aElements = (await this.page.$$('td.tar a.nop.btn.g.dl._open_window'))
-    qalitiesTableData.map((row,i)=>{
-        let quality = {}
-        quality.name = row[1]
-        quality.size = row[2]
-        if(!this.isAllowedQuality(quality.size))return;
-        quality.a = aElements[i]
-        this.qualities.push(quality)
+    this.page.waitForSelector('td.tar a.nop.btn.g.dl._open_window',{timeout:30000}).then(async ()=>{
+        this.getMovieDetails(this.page)
+        logger('getQualities','Getting qualities...')
+        const qalitiesTableData = await this.page.evaluate(
+            () => Array.from(
+                document.querySelectorAll('table.dls_table tbody tr'),
+                row => Array.from(row.querySelectorAll('td'), cell => cell.innerText)
+            )
+        );
+        let aElements = (await this.page.$$('td.tar a.nop.btn.g.dl._open_window'))
+        qalitiesTableData.map((row,i)=>{
+            let quality = {}
+            quality.name = row[1]
+            quality.size = row[2]
+            if(!this.isAllowedQuality(quality.size))return;
+            quality.a = aElements[i]
+            this.qualities.push(quality)
+        })
+        this.goToDownloadPage()
     })
-    this.goToDownloadPage()
-    // let a = (await this.page.$$('td.tar a.nop.btn.g.dl._open_window')).reverse();
-    // a[0].click()
+    .catch(()=>{
+        this.resetInformation()
+        this.movieNumber--
+        return this.clickMovie()
+    })
+    
 }
 
 Scraper.prototype.closePage = async function (page) {
@@ -162,25 +169,30 @@ Scraper.prototype.closePage = async function (page) {
 }
 
 Scraper.prototype.onPageResponse = async function () {
-    let timeout = setTimeout(async ()=>{
-        await this.closePageByIndex(1)
-        logger('onResponse','Page closed')
-        return this.getQualitiesUrls();
-    },15000)
-    this.page.on('response', async r => {
-        if (r.request().resourceType() === 'xhr') {
-            if (r.request().url().includes('kim/api?call') && this.page.url().includes('/movie')) {
-                this.page.removeAllListeners()
-                logger('onPageResponse', r.status())
-                if (r.status() == 200) {
-                    clearTimeout(timeout)
-                    await this.closePageByIndex(1)
-                    logger('onResponse','Page closed')
-                    return this.getQualitiesUrls();
-                }
-            }
-        }
-    });
+    await waitFor(1700)
+    await this.closePageByIndex(1)
+    logger('onResponse','Page closed')
+    return this.getQualitiesUrls();
+    // let timeout = setTimeout(async ()=>{
+    //     await this.closePageByIndex(1)
+    //     logger('onResponse','Page closed')
+    //     return this.getQualitiesUrls();
+    // },15000)
+    // this.page.on('response', async r => {
+    //     if (r.request().resourceType() === 'xhr') {
+    //         console.log('Response!!!!!!!!!!!!!!!!!!!!!!!!');
+    //         this.page.removeAllListeners()
+    //         if (r.request().url().includes('kim/api?call') && this.page.url().includes('/movie')) {
+    //             logger('onPageResponse', r.status())
+    //             if (r.status() == 200) {
+    //                 clearTimeout(timeout)
+    //                 await this.closePageByIndex(1)
+    //                 logger('onResponse','Page closed')
+    //                 return this.getQualitiesUrls();
+    //             }
+    //         }
+    //     }
+    // });
 }
 Scraper.prototype.waitNavigation = async function (page) {
     let navi = await new Promise((resolve) => {
@@ -215,8 +227,9 @@ Scraper.prototype.getLink = async function (page) {
     if(this.tries >= 5){
         logger('getLink',`failed to get link skipping...`)
         this.sendMessage(`!!Fails!!: ${this.movie.name} - ${quality.name}`)
-        this.tries = 0;
-        return this.isQualitiesDone()
+        this.resetInformation()
+        this.movieNumber--
+        return this.clickMovie()
     }
     if (await page.$('a.bigbutton._reload')) {
         logger('getLink', 'Try to get link again')
