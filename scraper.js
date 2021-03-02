@@ -14,7 +14,7 @@ async function waitFor(ms){
 
 function Scraper(bot) {
     this.pageNumber = 13
-    this.movieNumber = 12
+    this.movieNumber = 11
     this.qualities = []
     this.currentQality = 0
     this.movie = {qualities:[]}
