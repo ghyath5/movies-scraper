@@ -13,7 +13,7 @@ async function waitFor(ms){
 }
 
 function Scraper(bot) {
-    this.pageNumber = 13
+    this.pageNumber = 24
     this.movieNumber = 11
     this.qualities = []
     this.currentQality = 0
@@ -100,9 +100,13 @@ Scraper.prototype.clickMovie = async function () {
 
     this.resetInformation()
     this.movieNumber++;
-    this.sendMessage(`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
+    if(this.movieNumber <= 0){
+        this.pageNumber--
+        this.movieNumber = 12
+    }
     logger('clickMovie',`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
     await this.page.goto(`https://lake.egybest.kim/movies/?page=${this.pageNumber}`, { waitUntil: 'networkidle2', timeout:60000});
+    this.sendMessage(`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
     await this.page.waitForSelector(`.movies a:nth-child(${this.movieNumber})`)
     let el = await this.page.$$(`.movies a:nth-child(${this.movieNumber})`)
     if (this.movieNumber >= 12) {
