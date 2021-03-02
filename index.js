@@ -11,16 +11,19 @@ app.get('/getfile',(req,res)=>{
 })
 
 const Scraper = require('./scraper')
-const scraper = new Scraper(bot)
+let scraper;
 
 bot.command('starts',(ctx)=>{
 	if(ctx.from.id != 566571423)return;
+	scraper = new Scraper(bot)
 	scraper.start()
+	ctx.reply('Started')
 })
 
 bot.command('stop',(ctx)=>{
 	if(ctx.from.id != 566571423)return;
 	scraper.stop()
+	ctx.reply('stopped')
 })
 bot.command('getfile',(ctx)=>{
 	if(ctx.from.id != 566571423)return;
