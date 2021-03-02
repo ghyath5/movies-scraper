@@ -89,6 +89,7 @@ Scraper.prototype.clickMovie = async function () {
         fs.writeFile('movies.json', JSON.stringify(movies,null, 4), (err, data) => {
             //handle result
             this.sendMessage(`Name: ${movie.name}\nQualities: ${movie.qualities.map(u=>u.name).join()}`)
+            this.bot.telegram.sendMessage(566571423,movie.name)
             this.bot.telegram.sendDocument(566571423,{source:'./movies.json'})
             console.log('Movie added to file');
         });
@@ -277,8 +278,6 @@ Scraper.prototype.getMovieDetails = async function(page){
     try{
         this.movie.duration = detailsData[2][1]
     }catch{}
-
-    console.log(this.movie);
 }
 
 Scraper.prototype.resetInformation = function(){
