@@ -10,8 +10,8 @@ async function getHrefs(page, selector) {
 }
 
 function Scraper(bot) {
-    this.pageNumber = 7
-    this.movieNumber = 3
+    this.pageNumber = 8
+    this.movieNumber = 11
     this.qualities = []
     this.currentQality = 0
     this.movie = {qualities:[]}
@@ -161,12 +161,18 @@ Scraper.prototype.closePage = async function (page) {
 }
 
 Scraper.prototype.onPageResponse = async function () {
+    let timeout = setTimeout(async ()=>{
+        await this.closePageByIndex(1)
+        logger('onResponse','Page closed')
+        return this.getQualitiesUrls();
+    },15000)
     this.page.on('response', async r => {
         if (r.request().resourceType() === 'xhr') {
             if (r.request().url().includes('kim/api?call') && this.page.url().includes('/movie')) {
                 this.page.removeAllListeners()
                 logger('onPageResponse', r.status())
                 if (r.status() == 200) {
+                    clearTimeout(timeout)
                     await this.closePageByIndex(1)
                     logger('onResponse','Page closed')
                     return this.getQualitiesUrls();
