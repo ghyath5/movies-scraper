@@ -55,7 +55,7 @@ Scraper.prototype.start = async function () {
     const oldProxyUrl = 'http://cubeecjo-dest:h078sbs3uj0u@193.8.56.119:9183';
     const newProxyUrl = await proxyChain.anonymizeProxy(oldProxyUrl);
     this.browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
         slowMo: 400,
         args: [`--proxy-server=${newProxyUrl}`],
         defaultViewport: null
@@ -145,7 +145,7 @@ Scraper.prototype.getQualitiesUrls = async function () {
     if(!this.page.url().includes('/movie/')){
         return logger('getQualities','Not in correct page');
     }
-    this.page.waitForSelector('td.tar a.nop.btn.g.dl._open_window',{timeout:3000}).then(async ()=>{
+    this.page.waitForSelector('td.tar a.nop.btn.g.dl._open_window',{timeout:30000}).then(async ()=>{
         this.getMovieDetails(this.page)
         logger('getQualities','Getting qualities...')
         const qalitiesTableData = await this.page.evaluate(
