@@ -19,7 +19,6 @@
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "http-proxy-middleware": "^1.0.6",
     "proxy-chain": "^0.4.7",
     "puppeteer": "^5.5.0",
     "telegraf": "^4.0.2"
