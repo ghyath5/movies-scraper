@@ -13,13 +13,14 @@ async function waitFor(ms){
 }
 
 function Scraper(bot) {
-    this.pageNumber = 24
-    this.movieNumber = 11
+    this.pageNumber = 32
+    this.movieNumber = 2
     this.qualities = []
     this.currentQality = 0
     this.movie = {qualities:[]}
     this.tries = 0
     this.bot = bot
+    this.moviesTries = 0
 }
 Scraper.prototype.sendMessage = function(msg){    
     this.bot.telegram.sendMessage(-1001418299416,msg,{parse_mode:"HTML"}).catch()
@@ -54,7 +55,7 @@ Scraper.prototype.start = async function () {
     const oldProxyUrl = 'http://cubeecjo-dest:h078sbs3uj0u@193.8.56.119:9183';
     const newProxyUrl = await proxyChain.anonymizeProxy(oldProxyUrl);
     this.browser = await puppeteer.launch({
-        headless: true,
+        headless: false,
         slowMo: 400,
         args: [`--proxy-server=${newProxyUrl}`],
         defaultViewport: null
@@ -104,6 +105,14 @@ Scraper.prototype.clickMovie = async function () {
         this.pageNumber--
         this.movieNumber = 12
     }
+    if(this.moviesTries >= 3){
+        this.moviesTries = 0
+        if (this.movieNumber >= 12) {
+            this.pageNumber++
+            this.movieNumber = 0;
+        }
+        this.movieNumber++
+    }
     logger('clickMovie',`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
     await this.page.goto(`https://lake.egybest.kim/movies/?page=${this.pageNumber}`, { waitUntil: 'networkidle2', timeout:60000});
     this.sendMessage(`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
@@ -136,7 +145,7 @@ Scraper.prototype.getQualitiesUrls = async function () {
     if(!this.page.url().includes('/movie/')){
         return logger('getQualities','Not in correct page');
     }
-    this.page.waitForSelector('td.tar a.nop.btn.g.dl._open_window',{timeout:30000}).then(async ()=>{
+    this.page.waitForSelector('td.tar a.nop.btn.g.dl._open_window',{timeout:3000}).then(async ()=>{
         this.getMovieDetails(this.page)
         logger('getQualities','Getting qualities...')
         const qalitiesTableData = await this.page.evaluate(
@@ -159,6 +168,7 @@ Scraper.prototype.getQualitiesUrls = async function () {
     .catch(()=>{
         this.resetInformation()
         this.movieNumber--
+        this.moviesTries++
         return this.clickMovie()
     })
     
@@ -233,6 +243,7 @@ Scraper.prototype.getLink = async function (page) {
         this.sendMessage(`!!Fails!!: ${this.movie.name} - ${quality.name}`)
         this.resetInformation()
         this.movieNumber--
+        this.moviesTries++
         return this.clickMovie()
     }
     if (await page.$('a.bigbutton._reload')) {
