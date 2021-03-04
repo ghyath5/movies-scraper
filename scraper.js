@@ -26,7 +26,8 @@ function Scraper(bot) {
 }
 
 Scraper.prototype.createFolder = async function(name){
-    name = name.replace(/[^\w\u0621-\u064A\s]/gi, '')
+    name = name.replace(/[^\w\u0621-\u064A\s]/gi, '_')
+    name = name.replace(/ /gi, '_')
     axios.post(`https://api.streamtape.com/file/createfolder?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&name=${name}`).then(({data})=>{
         if(data.result.folderid){
             console.log('Folder created successfully!');
