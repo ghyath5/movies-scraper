@@ -7,7 +7,7 @@ const app = express()
 
 app.get('/getfile',(req,res)=>{
 	if(!req.query || req.query.pass !== 'lilili123')return res.send(false);
-	res.sendFile('./movies.json')
+	res.sendFile(__dirname+'/movies.json')
 })
 
 const Scraper = require('./scraper');
