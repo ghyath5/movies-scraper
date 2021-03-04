@@ -69,7 +69,7 @@ Scraper.prototype.stop = function(){
     this.page = null
 }
 Scraper.prototype.start = async function () {
-    const oldProxyUrl = process.env.PROXY || 'http://cubeecjo-dest:h078sbs3uj0u@193.8.56.119:9183';
+    const oldProxyUrl = process.env.PROXY || 'http://gdatvjla-dest:6hyymmxz5rky@45.136.228.154:6209';
     const newProxyUrl = await proxyChain.anonymizeProxy(oldProxyUrl);
     this.browser = await puppeteer.launch({
         headless: true,
