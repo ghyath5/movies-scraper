@@ -26,6 +26,7 @@ function Scraper(bot) {
 }
 
 Scraper.prototype.createFolder = async function(name){
+    name = name.replace(/[^\w\u0621-\u064A\s]/gi, '')
     axios.post(`https://api.streamtape.com/file/createfolder?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&name=${name}`).then(({data})=>{
         if(data.result.folderid){
             console.log('Folder created successfully!');
@@ -113,7 +114,7 @@ Scraper.prototype.clickMovie = async function () {
         movies.push(movie)
         fs.writeFile('/var/movies.json', JSON.stringify(movies,null, 4), (err, data) => {
             //handle result
-            this.sendMessage(`Page: ${this.pageNumber}, Movie: ${this.movieNumber};\nName: ${movie.name}\nQualities: ${movie.qualities.map(u=>u.name).join()}`)
+            this.sendMessage(`Name: ${movie.name}\nQualities: ${movie.qualities.map(u=>u.name).join()}`)
             this.bot.telegram.sendMessage(566571423,movie.name)
             this.bot.telegram.sendDocument(566571423,{source:'/var/movies.json'})
             console.log('Movie added to file');
