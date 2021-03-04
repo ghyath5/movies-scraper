@@ -10,7 +10,7 @@ app.get('/getfile',(req,res)=>{
 	res.sendFile('/var/movies.json')
 })
 
-const Scraper = require('./scraper')
+const Scraper = require('./scraper');
 let scraper;
 
 bot.command('starts',(ctx)=>{

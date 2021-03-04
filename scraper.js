@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 const proxyChain = require('proxy-chain');
 const fs = require("fs");
+const { default: axios } = require('axios');
 
 const logger = (func, msg) => {
     console.log(`${func}: ` + msg)
@@ -13,9 +14,9 @@ async function waitFor(ms){
 }
 
 function Scraper(bot) {
-    this.pageNumber = (process.env.START_PAGE_NUMBER || 37)
+    this.pageNumber = (process.env.START_PAGE_NUMBER || 1)
     this.movieNumber = (process.env.START_MOVIE_NUMBER || 0)
-    this.endPageNumber = (process.env.STOP_PAGE_NUMBER || 380)
+    this.endPageNumber = (process.env.STOP_PAGE_NUMBER || 5)
     this.qualities = []
     this.currentQality = 0
     this.movie = {qualities:[]}
@@ -23,11 +24,31 @@ function Scraper(bot) {
     this.bot = bot
     this.moviesTries = 0
 }
+
+Scraper.prototype.createFolder = async function(name){
+    axios.post(`https://api.streamtape.com/file/createfolder?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&name=${name}`).then(({data})=>{
+        if(data.result.folderid){
+            console.log('Folder created successfully!');
+            this.movie.folderid = data.result.folderid
+        }else{
+            console.log('Create folder fails');
+            this.sendMessage(`uploding fails ${this.pageNumber} - ${this.movieNumber} - ${name}`)
+            this.bot.telegram.sendMessage(566571423,'X Scraper stoped because of failing with uploading X')
+            return this.stop()
+        }
+    }).catch((e)=>{
+        console.log('Create folder fails');
+        this.sendMessage(`uploding fails ${this.pageNumber} - ${this.movieNumber} - ${name}`)
+        this.bot.telegram.sendMessage(566571423,'X Scraper stoped because of failing with uploading X')
+        return this.stop()
+    })
+}
+
 Scraper.prototype.sendMessage = function(msg){    
     this.bot.telegram.sendMessage(-1001418299416,msg,{parse_mode:"HTML"}).catch()
 }
 Scraper.prototype.isAllowedQuality = function(size){
-    let allowedSize = 1.9
+    let allowedSize = 8
     size = size.toLowerCase()
     if(size.includes('m')){
         return true
@@ -43,10 +64,6 @@ Scraper.prototype.isAllowedQuality = function(size){
     return false;
 }
 Scraper.prototype.stop = function(){
-    let quality = {name:'unknown'}
-    try{
-        quality = this.qualities[this.currentQality]
-    }catch{}
     this.browser.close()
     this.browser = null
     this.page = null
@@ -86,7 +103,8 @@ Scraper.prototype.browserPages = async function () {
     return await this.browser.pages()
 }
 Scraper.prototype.clickMovie = async function () {
-    if(this.endPageNumber <= this.pageNumber){
+    if( this.pageNumber>=this.endPageNumber){
+        this.stop()
         return this.sendMessage(`Instance Done!!!!`)
     }
     if(this.movie.qualities.length){
@@ -95,7 +113,7 @@ Scraper.prototype.clickMovie = async function () {
         movies.push(movie)
         fs.writeFile('/var/movies.json', JSON.stringify(movies,null, 4), (err, data) => {
             //handle result
-            this.sendMessage(`Name: ${movie.name}\nQualities: ${movie.qualities.map(u=>u.name).join()}`)
+            this.sendMessage(`Page: ${this.pageNumber}, Movie: ${this.movieNumber};\nName: ${movie.name}\nQualities: ${movie.qualities.map(u=>u.name).join()}`)
             this.bot.telegram.sendMessage(566571423,movie.name)
             this.bot.telegram.sendDocument(566571423,{source:'/var/movies.json'})
             console.log('Movie added to file');
@@ -267,7 +285,14 @@ Scraper.prototype.getLink = async function (page) {
         return this.tryToGetLink(page)
     }
     delete quality.a
-    quality.link = href[0]
+    let qname = quality.name.trim().replace(/ /g,'-')
+    let {data} = await axios.post(`https://api.streamtape.com/remotedl/add?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&url=${href[0]}&name=${qname}&folder=${this.movie.folderid}`)
+    if(data.result){
+        quality.vid = data.result.id
+    }else{
+        this.sendMessage(`uploding fails ${this.pageNumber} - ${this.movieNumber} - ${qname}`)
+        quality.fails = '!Fails!'
+    }
     this.movie.qualities.push(quality)
     await this.closePageByIndex(1)
     logger('getLink','download page closed')
@@ -288,6 +313,7 @@ Scraper.prototype.getMovieDetails = async function(page){
     let year =  await page.$eval('div.movie_title h1 a', el => el.innerText);
     let thumbnail = await this.page.$eval('div.movie_cover .movie_img a img',(el)=>el.getAttribute('src'));
     let story = await this.page.$eval('div#mainLoad div div.mbox:nth-child(5) div.pda:nth-child(2)',(el)=>el.innerText);
+    this.createFolder(name)
     this.movie = {
         ...this.movie,
         name,
