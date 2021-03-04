@@ -26,7 +26,6 @@ function Scraper(bot) {
 }
 
 Scraper.prototype.createFolder = async function(name){
-    name = name.replace(/[^\w\u0621-\u064A\s]/gi, '_')
     let url = encodeURI(`https://api.streamtape.com/file/createfolder?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&name=${name}`)
     axios.post(url).then(({data})=>{
         if(data.result.folderid){
@@ -105,7 +104,7 @@ Scraper.prototype.browserPages = async function () {
     return await this.browser.pages()
 }
 Scraper.prototype.clickMovie = async function () {
-    if( this.pageNumber>=this.endPageNumber){
+    if( this.pageNumber>this.endPageNumber){
         this.stop()
         return this.sendMessage(`Instance Done!!!!`)
     }
