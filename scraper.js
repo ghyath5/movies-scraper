@@ -14,9 +14,9 @@ async function waitFor(ms){
 }
 
 function Scraper(bot) {
-    this.pageNumber = (process.env.START_PAGE_NUMBER || 1)
-    this.movieNumber = (process.env.START_MOVIE_NUMBER || 0)
-    this.endPageNumber = (process.env.STOP_PAGE_NUMBER || 5)
+    this.pageNumber = Number(process.env.START_PAGE_NUMBER || 1)
+    this.movieNumber = Number(process.env.START_MOVIE_NUMBER || 0)
+    this.endPageNumber = Number(process.env.STOP_PAGE_NUMBER || 5)
     this.qualities = []
     this.currentQality = 0
     this.movie = {qualities:[]}
