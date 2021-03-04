@@ -142,6 +142,8 @@ Scraper.prototype.clickMovie = async function () {
     await this.page.waitForSelector(`.movies a:nth-child(${this.movieNumber})`).catch(async ()=>{
         stop = true;
         await waitFor(8000)
+        this.moviesTries++
+        this.movieNumber--
         this.clickMovie()
     })
     if(stop)return;
@@ -211,7 +213,7 @@ Scraper.prototype.closePage = async function (page) {
 }
 
 Scraper.prototype.onPageResponse = async function () {
-    await waitFor(1700)
+    await waitFor(1800)
     await this.closePageByIndex(1)
     logger('onResponse','Page closed')
     return this.getQualitiesUrls();
@@ -301,10 +303,11 @@ Scraper.prototype.getLink = async function (page) {
     return this.isQualitiesDone()
 }
 
-Scraper.prototype.isQualitiesDone = function (){
+Scraper.prototype.isQualitiesDone = async function (){
     this.currentQality++
     if(this.qualities.length <= this.currentQality){
-        logger('getLink','Get another movie')
+        logger('getLink','Get another movie')        
+        await waitFor(10000)
         return this.clickMovie()
     }
     return this.goToDownloadPage()
