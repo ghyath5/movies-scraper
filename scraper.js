@@ -27,8 +27,8 @@ function Scraper(bot) {
 
 Scraper.prototype.createFolder = async function(name){
     name = name.replace(/[^\w\u0621-\u064A\s]/gi, '_')
-    name = name.replace(/ /gi, '_')
-    axios.post(`https://api.streamtape.com/file/createfolder?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&name=${name}`).then(({data})=>{
+    let url = encodeURI(`https://api.streamtape.com/file/createfolder?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&name=${name}`)
+    axios.post(url).then(({data})=>{
         if(data.result.folderid){
             console.log('Folder created successfully!');
             this.movie.folderid = data.result.folderid
@@ -288,7 +288,8 @@ Scraper.prototype.getLink = async function (page) {
     }
     delete quality.a
     let qname = quality.name.trim().replace(/ /g,'-')
-    let {data} = await axios.post(`https://api.streamtape.com/remotedl/add?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&url=${href[0]}&name=${qname}&folder=${this.movie.folderid}`)
+    let upUrl = encodeURI(`https://api.streamtape.com/remotedl/add?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&url=${href[0]}&name=${qname}&folder=${this.movie.folderid}`)
+    let {data} = await axios.post(upUrl)
     if(data.result){
         quality.vid = data.result.id
     }else{
