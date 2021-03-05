@@ -73,9 +73,9 @@ Scraper.prototype.start = async function () {
     const oldProxyUrl = process.env.PROXY || 'http://gdatvjla-dest:6hyymmxz5rky@45.136.228.154:6209';
     const newProxyUrl = await proxyChain.anonymizeProxy(oldProxyUrl);
     this.browser = await puppeteer.launch({
-        headless: true,
+        headless: false,
         slowMo: 400,
-        args: [`--proxy-server=${newProxyUrl}`],
+        args: [`--proxy-server=${newProxyUrl}`,'--no-sandbox', '--disable-setuid-sandbox'],
         defaultViewport: null
     })
     this.page = (await this.browser.pages())[0];
