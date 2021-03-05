@@ -301,6 +301,7 @@ Scraper.prototype.getLink = async function (page) {
     this.movie.qualities.push(quality)
     await this.closePageByIndex(1)
     logger('getLink','download page closed')
+    await waitFor(20000)
     return this.isQualitiesDone()
 }
 
