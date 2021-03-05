@@ -301,7 +301,7 @@ Scraper.prototype.getLink = async function (page) {
     this.movie.qualities.push(quality)
     await this.closePageByIndex(1)
     logger('getLink','download page closed')
-    await waitFor(20000)
+    await waitFor(25000)
     return this.isQualitiesDone()
 }
 
@@ -309,7 +309,7 @@ Scraper.prototype.isQualitiesDone = async function (){
     this.currentQality++
     if(this.qualities.length <= this.currentQality){
         logger('getLink','Get another movie')
-        await waitFor(20000)
+        await waitFor(35000)
         return this.clickMovie()
     }
     return this.goToDownloadPage()
