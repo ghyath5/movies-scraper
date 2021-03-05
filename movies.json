@@ -3414,5 +3414,336 @@
         ],
         "duration": "01:26:29",
         "folderid": "Z3_jSf1Ql-0"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.4GB",
+                "vid": "R51J6szVn1Y"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.2GB",
+                "vid": "ZQRZyXgoRt0"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "540.0MB",
+                "vid": "ApQXiTsO32k"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "323.0MB",
+                "vid": "AKU3KNWmG6E"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "200.0MB",
+                "vid": "U6Iq5qVcRhA"
+            }
+        ],
+        "name": "The White Tiger",
+        "year": "2021",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZbW1idmNtYm1qbWpFY21tdmNjTlR6YW1FYQ.jpg",
+        "story": "Cọp Trắng   •   النمر الأبيض\nيتناول العمل الرحلة الملحمية لسائق هندي فقير يحاول استخدام ذكائه ومكره للتحرر من العبودية لأسياده الأغنياء والارتقاء إلى القمة.",
+        "lang": "الانجليزية   ",
+        "country": "    الهند",
+        "sections": [
+            "جريمة ",
+            " دراما"
+        ],
+        "duration": "02:07:01",
+        "folderid": "CPu_z7I9pns"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.3GB",
+                "vid": "PoJwcjn0ao0"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "659.8MB",
+                "vid": "ckJzwwXGtXo"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "272.1MB",
+                "vid": "eW8nHQGlcUg"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "175.2MB",
+                "vid": "dSBzB4VgkjE"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "103.5MB",
+                "vid": "f7nxDHgx5rI"
+            }
+        ],
+        "name": "Stuck Apart",
+        "year": "2021",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZbW1URW1Uam1iRWNhbW1tRWxtYnhQeA.jpg",
+        "story": "Azizler\nThe story of Aziz through an existential crisis longing for his youth: he is not happy with his work nor his private life, which is hijacked by his sister and her family, who have been living with him for some time now.",
+        "lang": "التركية   ",
+        "country": "    تركيا",
+        "sections": [
+            "كوميديا ",
+            " دراما"
+        ],
+        "duration": "01:36:36",
+        "folderid": "YIEcpUcp4Ok"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.7GB",
+                "vid": "e6Yy3otZdlE"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.3GB",
+                "vid": "cqbBoS_FlHs"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "619.0MB",
+                "vid": "Trb72jxCZYk"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "355.5MB",
+                "vid": "Fx0xKcgFRzA"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "216.6MB",
+                "vid": "HHBfUtyYa0I"
+            }
+        ],
+        "name": "Double Dad",
+        "year": "2021",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZbW1FbW1tWXZtZWNtdm1tbUVtWWJ4UG16.jpg",
+        "story": "Um Pai no Meio do Caminho\nWhile her mom is away, a teen sneaks out of the hippie commune where she lives and embarks on a life-changing adventure to discover who her father is.",
+        "lang": "البرتغالية   ",
+        "country": "    البرازيل",
+        "sections": [
+            "كوميديا ",
+            " دراما ",
+            " عائلي"
+        ],
+        "duration": "01:45:15",
+        "folderid": "DPoonPTG-Bo"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.2GB",
+                "vid": "OSytn-mD1NY"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.1GB",
+                "vid": "brB71GMjuXM"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "504.1MB",
+                "vid": "IjzHSOrVB8c"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "303.9MB",
+                "vid": "UeK8IiJ1Ne0"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "187.8MB",
+                "vid": "D35KZ3BPnV0"
+            }
+        ],
+        "name": "Locked Down",
+        "year": "2021",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZbW1FbW1tYnZjbUVFY21tbWphbW1tdm1yd2E.jpg",
+        "story": "A couple attempts a high-risk, high-stakes jewelry heist at a department store.",
+        "lang": "الانجليزية   ",
+        "country": "    المملكة المتحدة",
+        "sections": [
+            "كوميديا ",
+            " جريمة ",
+            " رومانسية"
+        ],
+        "duration": "01:57:54",
+        "folderid": "ZnKWGwyzQlY"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.3GB",
+                "vid": "HH0HWQZJSV8"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1,019.7MB",
+                "vid": "c2onzGNAtHQ"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "456.2MB",
+                "vid": "S8_HsxaZRIQ"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "264.6MB",
+                "vid": "L78WZq1qjpQ"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "162.1MB",
+                "vid": "EDx-4tyl4b4"
+            }
+        ],
+        "name": "Crack: Cocaine, Corruption & Conspiracy",
+        "year": "2021",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXZtam1ibW12Y0VjbWJ2TkdOcGRUbQ.jpg",
+        "story": "In the early 1980s, the crack epidemic tore through America’s inner cities like a tsunami, ravaging all in its wake.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "وثائقي ",
+            " جريمة ",
+            " تاريخ"
+        ],
+        "duration": "01:29:42",
+        "folderid": "VTe0KoekyxQ"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.1GB",
+                "vid": "SnUkviWCfOE"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "526.4MB",
+                "vid": "fR6IjCo5HoM"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "227.8MB",
+                "vid": "e8NS945gU_Q"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "156.6MB",
+                "vid": "XXZG5n76C7k"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "91.9MB",
+                "vid": "XboT061fudI"
+            }
+        ],
+        "name": "Batman: Soul of the Dragon",
+        "year": "2021",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZbW1tbXBwVGFjYW1FUG1tYXdUbW1q.jpg",
+        "story": "In the 1970s, a missing teacher of martial arts is the subject of a quest by his devoted and brilliant but distant students, who include Batman.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "انيميشن ",
+            " اكشن ",
+            " مغامرة ",
+            " جريمة"
+        ],
+        "duration": "01:22:39",
+        "folderid": "Viz5yVibwuE"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.4GB",
+                "vid": "bAY6ccjx3bE"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "645.3MB",
+                "vid": "OFrto16crCU"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "362.5MB",
+                "vid": "dRm0F8vEVN0"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "216.3MB",
+                "vid": "MOQbmmH2smg"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "145.2MB",
+                "vid": "DZFwtJRB6n4"
+            }
+        ],
+        "name": "Average Joe",
+        "year": "2021",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZbW12bUh0Y21iRWN4bVRFY2tObW1qY3c.jpg",
+        "story": "When Lord Menace returns from the dead to terrorize San Antonio, the old gang must reassemble to fight evil once more. Unfortunately since their last adventure the gang has become",
+        "folderid": "M5g1CyHD2jk",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "اكشن"
+        ],
+        "duration": "01:27:24"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.1GB",
+                "vid": "aq_rJFn5bdw"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "584.1MB",
+                "vid": "BGKkEVjOgLE"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "255.2MB",
+                "vid": "c-NBgibH4As"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "174.3MB",
+                "vid": "T6usDD7LMwI"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "102.9MB",
+                "vid": "RmIsjt0WW7M"
+            }
+        ],
+        "name": "Goodbye, Butterfly",
+        "year": "2021",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZbW1FdmNtcGJtYkVjdmNhd1RZVGJ4bA.jpg",
+        "story": "After his five-year-old daughter is murdered, a loving family man becomes convinced that the oddball down the street is guilty.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "اثارة"
+        ],
+        "duration": "01:38:49",
+        "folderid": "YeFrWwEWE6g"
     }
 ]
