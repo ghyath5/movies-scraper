@@ -176,7 +176,7 @@ Scraper.prototype.getQualitiesUrls = async function () {
         return logger('getQualities','Not in correct page');
     }
     this.page.waitForSelector('td.tar a.nop.btn.g.dl._open_window',{timeout:30000}).then(async ()=>{
-        this.getMovieDetails(this.page)
+        await this.getMovieDetails(this.page)
         logger('getQualities','Getting qualities...')
         const qalitiesTableData = await this.page.evaluate(
             () => Array.from(
@@ -196,7 +196,6 @@ Scraper.prototype.getQualitiesUrls = async function () {
         this.goToDownloadPage()
     })
     .catch(async ()=>{
-        await this.deleteFolder()
         this.resetInformation()
         this.movieNumber--
         this.moviesTries++
@@ -272,7 +271,6 @@ Scraper.prototype.getLink = async function (page) {
     if(this.tries >= 5){
         logger('getLink',`failed to get link skipping...`)
         this.sendMessage(`!!Fails!!: ${this.movie.name} - ${quality.name}`)
-        await this.deleteFolder()
         this.resetInformation()
         this.movieNumber--
         this.moviesTries++
@@ -290,8 +288,8 @@ Scraper.prototype.getLink = async function (page) {
         return this.tryToGetLink(page)
     }
     delete quality.a
-    let qname = quality.name.trim().replace(/ /g,'-')
-    let upUrl = encodeURI(`https://api.streamtape.com/remotedl/add?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&url=${href[0]}&name=${qname}&folder=${this.movie.folderid}`)
+    let qname = `${this.movie.name}-${quality.name.trim().replace(/ /g,'-')}`
+    let upUrl = encodeURI(`https://api.streamtape.com/remotedl/add?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&url=${href[0]}&name=${qname}`)
     let {data} = await axios.post(upUrl)
     if(data.result){
         quality.vid = data.result.id
@@ -315,19 +313,12 @@ Scraper.prototype.isQualitiesDone = async function (){
     return this.goToDownloadPage()
 }
 
-Scraper.prototype.deleteFolder = async  function(){
-    if(!this.movie.folderid)return;
-    let url = encodeURI(`https://api.streamtape.com/file/deletefolder?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&folder=${this.movie.folderid}`)
-    await axios.post(url)
-    console.log('----Folder deleted----');
-}
-
 Scraper.prototype.getMovieDetails = async function(page){
     const name = await page.$eval('div.movie_title h1 span', el => el.innerText);
     let year =  await page.$eval('div.movie_title h1 a', el => el.innerText);
     let thumbnail = await this.page.$eval('div.movie_cover .movie_img a img',(el)=>el.getAttribute('src'));
     let story = await this.page.$eval('div#mainLoad div div.mbox:nth-child(5) div.pda:nth-child(2)',(el)=>el.innerText);
-    this.createFolder(name)
+    // this.createFolder(name)
     this.movie = {
         ...this.movie,
         name,
