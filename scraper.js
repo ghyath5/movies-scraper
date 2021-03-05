@@ -195,7 +195,8 @@ Scraper.prototype.getQualitiesUrls = async function () {
         })
         this.goToDownloadPage()
     })
-    .catch(()=>{
+    .catch(async ()=>{
+        await this.deleteFolder()
         this.resetInformation()
         this.movieNumber--
         this.moviesTries++
@@ -271,6 +272,7 @@ Scraper.prototype.getLink = async function (page) {
     if(this.tries >= 5){
         logger('getLink',`failed to get link skipping...`)
         this.sendMessage(`!!Fails!!: ${this.movie.name} - ${quality.name}`)
+        await this.deleteFolder()
         this.resetInformation()
         this.movieNumber--
         this.moviesTries++
@@ -311,6 +313,13 @@ Scraper.prototype.isQualitiesDone = async function (){
         return this.clickMovie()
     }
     return this.goToDownloadPage()
+}
+
+Scraper.prototype.deleteFolder = async  function(){
+    if(!this.movie.folderid)return;
+    let url = encodeURI(`https://api.streamtape.com/file/deletefolder?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&folder=${this.movie.folderid}`)
+    await axios.post(url)
+    console.log('----Folder deleted----');
 }
 
 Scraper.prototype.getMovieDetails = async function(page){
