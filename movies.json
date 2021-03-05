@@ -309,5 +309,44 @@
             " اثارة"
         ],
         "duration": "02:09:19"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.0GB",
+                "vid": "VHAq1K9sxkw"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "942.6MB",
+                "vid": "CG7zkx1eBtc"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "406.6MB",
+                "vid": "M-Alnoy2P6w"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "242.4MB",
+                "vid": "dH2zan3HdbQ"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "151.7MB",
+                "vid": "AT_0RCg-2SU"
+            }
+        ],
+        "name": "After Truth: Disinformation and the Cost of Fake News",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZcG1tYm1qbVRlY21ieHZjbWJtRW1qeHZ3.jpg",
+        "story": "",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "وثائقي"
+        ],
+        "duration": "01:35:36"
     }
 ]
