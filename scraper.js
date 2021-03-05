@@ -135,8 +135,7 @@ Scraper.prototype.clickMovie = async function () {
         }
         this.movieNumber++
     }
-    logger('clickMovie',`Open page=${this.pageNumber}, movie=${this.movieNumber}`)     
-    await waitFor(10000)
+    logger('clickMovie',`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
     await this.page.goto(`https://lake.egybest.kim/movies/?page=${this.pageNumber}`, { waitUntil: 'networkidle2', timeout:60000});
     this.sendMessage(`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
     let stop = false
@@ -308,6 +307,7 @@ Scraper.prototype.isQualitiesDone = async function (){
     this.currentQality++
     if(this.qualities.length <= this.currentQality){
         logger('getLink','Get another movie')
+        await waitFor(10000)
         return this.clickMovie()
     }
     return this.goToDownloadPage()
