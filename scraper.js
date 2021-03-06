@@ -174,7 +174,10 @@ Scraper.prototype.goToDownloadPage = async function(){
 
 Scraper.prototype.getQualitiesUrls = async function () {
     if(!this.page.url().includes('/movie/')){
-        return logger('getQualities','Not in correct page');
+        logger('getQualities','Not in correct page');
+        this.movieNumber--
+        this.moviesTries++
+        return this.clickMovie()
     }
     this.page.waitForSelector('td.tar a.nop.btn.g.dl._open_window',{timeout:30000}).then(async ()=>{
         await this.getMovieDetails(this.page)
