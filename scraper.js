@@ -74,7 +74,7 @@ Scraper.prototype.start = async function () {
     const newProxyUrl = await proxyChain.anonymizeProxy(oldProxyUrl);
     this.browser = await puppeteer.launch({
         headless: true,
-        slowMo: 400,
+        slowMo: 500,
         args: [`--proxy-server=${newProxyUrl}`,'--no-sandbox', '--disable-setuid-sandbox'],
         defaultViewport: null
     })
@@ -135,7 +135,7 @@ Scraper.prototype.clickMovie = async function () {
         }
         this.movieNumber++
     }
-    await waitFor(5000)
+    await waitFor(8000)
     logger('clickMovie',`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
     await this.page.goto(`https://lake.egybest.kim/movies/?page=${this.pageNumber}`, { waitUntil: 'networkidle2', timeout:60000});
     this.sendMessage(`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
@@ -304,7 +304,7 @@ Scraper.prototype.getLink = async function (page) {
     this.movie.qualities.push(quality)
     await this.closePageByIndex(1)
     logger('getLink','download page closed')
-    await waitFor(15000)
+    await waitFor(50000)
     return this.isQualitiesDone()
 }
 
