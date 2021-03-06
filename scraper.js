@@ -49,7 +49,7 @@ Scraper.prototype.sendMessage = function(msg){
     this.bot.telegram.sendMessage(-1001418299416,msg,{parse_mode:"HTML"}).catch()
 }
 Scraper.prototype.isAllowedQuality = function(size){
-    let allowedSize = 8
+    let allowedSize = 4
     size = size.toLowerCase()
     if(size.includes('m')){
         return true
