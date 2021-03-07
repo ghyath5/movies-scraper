@@ -1,1 +1,2199 @@
-[]
+[
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.3GB",
+                "vid": "E9dOPw5kQ1Q"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "479.9MB",
+                "vid": "LAmCe2nN5hY"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "224.5MB",
+                "vid": "PaapgYulDds"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "138.2MB",
+                "vid": "HN090JHb-qA"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "82.6MB",
+                "vid": "D1Zj5svBxRk"
+            }
+        ],
+        "name": "The Lego Star Wars Holiday Special",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWW9OTGNtRUVjbVRtbVRibXBZdm1F.jpg",
+        "story": "Rey leaves her friends to prepare for Life Day as she sets off on an adventure to gain a deeper knowledge of the Force. At a mysterious temple, she is hurled into a cross-timeline adventure. Will she make it back in time for Life Day?",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "انيميشن ",
+            " قصير ",
+            " اكشن ",
+            " مغامرة ",
+            " كوميديا ",
+            " عائلي ",
+            " خيال علمي"
+        ],
+        "duration": "44:58"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.1GB",
+                "vid": "MLcqBLFGGqI"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "529.1MB",
+                "vid": "QCvDtod5FqM"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "303.4MB",
+                "vid": "PX-9_zCuYD0"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "198.3MB",
+                "vid": "JS0aMYDaurQ"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "119.1MB",
+                "vid": "b9aRLscj8-0"
+            }
+        ],
+        "name": "أسوار عالية",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZcGptYnZOam1hY3Z3eG1wWXZtYnZjbXo.jpg",
+        "story": "تتبع أحداث الفيلم مسارات اجتماعية مختلفة داخل المجتمع المصري، متناولة العلاقات المتشابكة بين الطبقات الاجتماعية المختلفة، كما يعرِج على تجارة المخدرات وآثارها السلبية في المجتمع والناس.",
+        "lang": "العربية   ",
+        "country": "    مصر",
+        "sections": [
+            "دراما"
+        ],
+        "duration": "01:37:43"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.1GB",
+                "vid": "PQ0Si64c5t8"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "567.3MB",
+                "vid": "PYp-WaR2u6M"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "242.4MB",
+                "vid": "MvIrIWEb2j8"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "155.9MB",
+                "vid": "AxLIAISoqSY"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "95.5MB",
+                "vid": "dtIIvQA-rtU"
+            }
+        ],
+        "name": "Blindfire",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWW9OWVR1Y3htbVBtam1welBh.jpg",
+        "story": "Lives are left in pieces after a white cop responds to a hostage call and kills the Black suspect, only to learn he may have been set up; facing trial, he must find the person responsible while examining his own accountability.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "جريمة ",
+            " دراما ",
+            " اثارة"
+        ],
+        "duration": "01:22:10"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1,016.8MB",
+                "vid": "Sbhte13biwc"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "532.7MB",
+                "vid": "DbRo1-SgwUU"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "223.2MB",
+                "vid": "U8FKOAwwQkE"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "149.5MB",
+                "vid": "CFqseZC6btU"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "85.6MB",
+                "vid": "ezVNG_Anx9s"
+            }
+        ],
+        "name": "Run",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZcHZtdm1FdmNtRUVjbXZtYnZ3bHZ3YXZOSQ.jpg",
+        "story": "A homeschooled teenager begins to suspect her mother is keeping a dark secret from her.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "رعب ",
+            " غموض ",
+            " اثارة"
+        ],
+        "duration": "01:29:27"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.3GB",
+                "vid": "DtHYbpZaoOY"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "626.5MB",
+                "vid": "RrQruUF_uiQ"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "356.1MB",
+                "vid": "JE-336zW69w"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "228.8MB",
+                "vid": "WWl49-oICqk"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "135.8MB",
+                "vid": "ad0ROJ-ISL8"
+            }
+        ],
+        "name": "Moments in Spacetime",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21MTnZtbXZjdnRjRWNtdm1iUG1Uam1vY212.jpg",
+        "story": "Macie (Patty Srisuwan), a Thai immigrant adopted into a North American family, must look after her dementia suffering grandfather (John Rhys-Davies), as she searches for the truth about her past.",
+        "lang": "الانجليزية   ",
+        "country": "    كندا",
+        "sections": [
+            "دراما"
+        ],
+        "duration": "01:52:27"
+    },
+    {
+        "qualities": [
+            {
+                "name": "HD 720p ",
+                "size": "586.6MB",
+                "vid": "BVn4xxlmJ8s"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "312.8MB",
+                "vid": "Dfl_uw4Ylng"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "197.3MB",
+                "vid": "T7FlztUmZ2M"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "136.3MB",
+                "vid": "cjE_n9HXai4"
+            }
+        ],
+        "name": "جدو مشاكل",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWW9jbW1tRW1tRWNtSHRjd1RUVHJ3.jpg",
+        "story": "تدور الأحداث حول شاب انطوائي وخجول، ولديها مشاكل كثيرة في نقطة التعامل مع الناس والمجتمع وكل من يحيط به، لكن تقع له حادثة تغير حياته رأسًا على عقب، فكيف سيتعامل معها، وما هو التغيير الذي سيحدث له؟",
+        "lang": "العربية   ",
+        "country": "    مصر",
+        "sections": [
+            "دراما"
+        ],
+        "duration": "01:31:43"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.6GB",
+                "vid": "LG7KEMCw6VQ"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.2GB",
+                "vid": "ekCIil5RsHc"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "545.9MB",
+                "vid": "AJ8nbjwQb0M"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "308.5MB",
+                "vid": "IfdAFqiBBZU"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "168.1MB",
+                "vid": "OggSV8zEXT8"
+            }
+        ],
+        "name": "Jiu Jitsu",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTE5qdmNtWXVjbG1ibG1URW1ibW14.jpg",
+        "story": "جيو جيتسو\nكل 6 سنوات، تواجه مجموعة قديمة من مقاتلي الجيو جيتسو غازيًا فضائيًا مخيفًا في معركة من أجل الأرض. عندما يرفض جيك بطل الحرب الشهير، مواجهة براكس، القائد الذي لا يقهر فإن مستقبل البشرية على المحك. يُصاب جيك بجروح ويعاني من فقدان الذاكرة الشديد ويتم القبض عليه من قبل فرقة عسكرية غير مجهزة لمحاربة الدخيل الذي لا يرحم والذي نزل على الكوكب بعد هجوم أجنبي وحشي على الفرقة العسكرية فيكون على ويلي إنقاد جيك",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "اكشن ",
+            " كوميديا ",
+            " خيال ",
+            " خيال علمي ",
+            " اثارة"
+        ],
+        "duration": "01:42:06"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "908.8MB",
+                "vid": "ZoP51QVWB8I"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "356.6MB",
+                "vid": "fPrnTopvuCE"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "169.4MB",
+                "vid": "CAERMP7qrXA"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "118.2MB",
+                "vid": "aBxyhe6P8bM"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "74.3MB",
+                "vid": "YjieDib_x7I"
+            }
+        ],
+        "name": "The Assistant",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZcEVtYnZjdmNtYWNQbWdhd1R2Y3dsUA.jpg",
+        "story": "المساعدة\nيتناول العمل قصة جين، وهي فتاة شابة تخرجت حديثاً ومخرجات أفلام طموحة، تضطر للعمل كمساعده لرجل مشهور، لتجد نفسها تسقط تدريجياً في المجتمع الفاسد، والروتين الممل.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "دراما"
+        ],
+        "duration": "01:27:34"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.0GB",
+                "vid": "Dl7p1AR6BPM"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.0GB",
+                "vid": "Wa0KmGa4lq8"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "483.3MB",
+                "vid": "FrqVPJj-00s"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "294.0MB",
+                "vid": "U6-oh7plem4"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "174.5MB",
+                "vid": "dE3eqRdAV2o"
+            }
+        ],
+        "name": "Train to Busan 2",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZcHZtRW12bXZtZWNtVEVtYm1qUG1qeG16.jpg",
+        "story": "Peninsula   •   شبه جزيرة\nتدور الأحداث بعد مرور 4 سنوات على حادثة قطار بوسان، حيث يحارب الجميع من أجل التصدي للكارثة الغير متوقعة والتي دمرت كل شيء على الأرض.",
+        "lang": "الكورية   ",
+        "country": "    كوريا الجنوبية",
+        "sections": [
+            "اكشن ",
+            " رعب ",
+            " اثارة"
+        ],
+        "duration": "01:55:55"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.4GB",
+                "vid": "K3ADC7XfsOM"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "678.3MB",
+                "vid": "RD4E0fJG3RI"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "277.2MB",
+                "vid": "K1cH0rxb0V4"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "179.8MB",
+                "vid": "eioIj0Jx52k"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "107.1MB",
+                "vid": "fIIYTszypXo"
+            }
+        ],
+        "name": "The Nest",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBqdk5ibWpFY21iYXhQY05qYW1q.jpg",
+        "story": "العُش\nيصطحب رجل أعمال بريطاني زوجته الأمريكية وأبنائهما إلى المملكة المتحدة من أجل السعى وراء فرصة جديدة في مجال اﻷعمال، لكن نمط الحياة الخاص في إحدى المزارع البريطانية يهدد العائلة بأسرها.",
+        "lang": "الانجليزية   ",
+        "country": "    المملكة المتحدة",
+        "sections": [
+            "دراما ",
+            " رومانسية"
+        ],
+        "duration": "01:47:29"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.6GB",
+                "vid": "PTK1x7lDyn0"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "770.5MB",
+                "vid": "DiZS5G8o5EM"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "331.3MB",
+                "vid": "bNob9drC0PM"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "207.9MB",
+                "vid": "ZB8ZVIoCqws"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "119.2MB",
+                "vid": "FGLLZvqS0w8"
+            }
+        ],
+        "name": "Dreamland",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBqdk5tbWJFY3dUdmxsY05ZWWc.jpg",
+        "story": "أرض اﻷحلام\nشاب في الخامسة عشر من عمره يلاحق فتاةً مطلوبة من الشرطة لسرقتها مبلغ من البنك، ليأخذ جائزة نتيجة اعتقالها. إلا أنه وبعد التقرّب منها، يكتشف أن اﻷمور مختلفة عما هو مزعوم به قبل السلطات.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "دراما ",
+            " اثارة"
+        ],
+        "duration": "01:41:01"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.6GB",
+                "vid": "efoGXeZd21g"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "813.2MB",
+                "vid": "IdUkFQJNWU0"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "356.7MB",
+                "vid": "dGojymkigrM"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "213.7MB",
+                "vid": "MJMttqettWQ"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "123.7MB",
+                "vid": "LRBRn_P1y3w"
+            }
+        ],
+        "name": "Come Away",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBtbXZtb2NFY3ZjbWJtbW1Ub3dsbXo.jpg",
+        "story": "تعال بعيدًا\nعندما يموت شقيقهما الأكبر، يسعى بيتر وأليس لإنقاذ والديهما روز وجاك، من اليأس، الذي سيطر علهما، إلى أن يضطروا إلى بيع المنزل، مما يمهد الطريق لرحلاتهما الشهيرة إلى بلاد العجائب ونيفرلاند.",
+        "lang": "الانجليزية   ",
+        "country": "    المملكة المتحدة",
+        "sections": [
+            "مغامرة ",
+            " دراما ",
+            " خيال"
+        ],
+        "duration": "01:34:24"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.0GB",
+                "vid": "HakFqwD_WZI"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.0GB",
+                "vid": "Je84n7_kzjY"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "489.4MB",
+                "vid": "SUsIpZScEv8"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "288.9MB",
+                "vid": "eizN9sGtlw4"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "169.0MB",
+                "vid": "ax_9WyzjJQE"
+            }
+        ],
+        "name": "Chick Fight",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBZam1UakVjdk5id1R2dnROang.jpg",
+        "story": "قتال الدجاج\nتدور أحداث الفيلم بعد انضمام آنا وينكومب إلى نادِ قتال تم تأسيسه تحت الأرض يتألف من النساء فقط، حيث تبدأ في اكتشاف ذاتها وارتباطها بالمكان بشكل غير متوقع.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "اكشن ",
+            " كوميديا"
+        ],
+        "duration": "01:37:19"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.6GB",
+                "vid": "GyB3Q8RpDrw"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "807.8MB",
+                "vid": "S_n6fOmWYmA"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "360.4MB",
+                "vid": "SC6ScxU3cL4"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "225.8MB",
+                "vid": "cTqDmp0jdsE"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "138.4MB",
+                "vid": "ImtXXCCkQ0w"
+            }
+        ],
+        "name": "Echo Boomers",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBqbW1tRW1tRWNtYmNOdm1wRW12bG1J.jpg",
+        "story": "Based on a true story, five college graduates decide the best way to get back at the unfair economy and live the life they've always wanted is to steal from Chicago's richest and give to themselves.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "اكشن ",
+            " جريمة ",
+            " دراما"
+        ],
+        "duration": "01:34:01"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.2GB",
+                "vid": "a2mYEW951zY"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "637.8MB",
+                "vid": "AfEViV2C6d8"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "270.0MB",
+                "vid": "XDlk8ViZDAY"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "176.9MB",
+                "vid": "KCbMdb79CMs"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "103.5MB",
+                "vid": "Z6xX998AX28"
+            }
+        ],
+        "name": "Last Three Days",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21UcGp2Y21IY21qRWN2d1BQbWJtSE5wZw.jpg",
+        "story": "After getting mixed up with a dangerous crime syndicate, an undercover cop wakes up to discover he is missing his partner, his wife, and three days of his life.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "اكشن ",
+            " جريمة ",
+            " غموض ",
+            " اثارة"
+        ],
+        "duration": "01:26:36"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.5GB",
+                "vid": "bbJhKDCzr1s"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "776.6MB",
+                "vid": "TfcQ7-gp48E"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "330.7MB",
+                "vid": "WMefDDeQ0xc"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "209.9MB",
+                "vid": "d5M_ibthVTk"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "120.3MB",
+                "vid": "PeXmaWtXPJ0"
+            }
+        ],
+        "name": "Dead Reckoning",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBqbW1tdm1FRWNtdnhQbUxVTGN4.jpg",
+        "story": "A thriller inspired by the Boston Marathon bombing in 2013.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "اكشن ",
+            " اثارة"
+        ],
+        "duration": "01:31:22"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.1GB",
+                "vid": "cn5HtNH87wQ"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "584.5MB",
+                "vid": "IG8W1Qi-uPI"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "251.8MB",
+                "vid": "VMCrFC2xnVA"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "155.8MB",
+                "vid": "K6M1ah-sYvY"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "88.4MB",
+                "vid": "eWy5DbZ79hI"
+            }
+        ],
+        "name": "It Cuts Deep",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTE52bWptanZSY3ZjbGNOVHB6eHZj.jpg",
+        "story": "While on Christmas vacation, a young couple contemplates their future together. Ashley is interested in getting married and having kids which terrifies Sam. When the more attractive and",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "كوميديا ",
+            " رعب"
+        ],
+        "duration": "01:16:59"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.5GB",
+                "vid": "UJpbJVJMITU"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "720.3MB",
+                "vid": "UarfzMREJA8"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "355.0MB",
+                "vid": "YI-4RlMo51w"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "211.8MB",
+                "vid": "Xi_EinIhUvE"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "133.2MB",
+                "vid": "Gy-qYi4t6WI"
+            }
+        ],
+        "name": "Unhinged",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTGNtbW12bUhjRWN3VFl2bVRMY3ZjbWI.jpg",
+        "story": "مختل\nيتقاطع طريق راتشل مع شخص غامض، فتجد نفسها هي وكل من تحب في خطر من رجل شعر طيلة حياته بعدم وجوده، فيسعى لترك علامة قبل رحيله بتعليمها بعض الدروس المميتة.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "اكشن ",
+            " اثارة"
+        ],
+        "duration": "01:30:08"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "505.2MB",
+                "vid": "C-JyXPN2GtE"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "224.7MB",
+                "vid": "N9g_yNVaLVw"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "128.2MB",
+                "vid": "GbC_iUhfC1U"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "80.8MB",
+                "vid": "dtZCOJRExpo"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "50.7MB",
+                "vid": "ODvhSWRIHrY"
+            }
+        ],
+        "name": "Jaeger",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21MY212dk5Zam1lY3ZjdnROVHhqdk5F.jpg",
+        "story": "Brothers Kade and Ben Jaeger have always lived in the shadow of their late father's criminal empire, but their differences put them on a bloody collision course, and neither will stop until the other is dead.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "اكشن"
+        ],
+        "duration": "40:51"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "3.1GB",
+                "vid": "GpgbZBGnKNk"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.3GB",
+                "vid": "UGuOmckWKlk"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "644.8MB",
+                "vid": "BppquieJCnM"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "364.7MB",
+                "vid": "EDC6WqBwsPs"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "206.2MB",
+                "vid": "GD3s8owrTh4"
+            }
+        ],
+        "name": "Free Burma Rangers",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZcFRwVEVtZWNhbXZQbWpQbGNOeg.jpg",
+        "story": "The film follows Dave, Karen, and their three young children, as they venture into war zones where they are fighting to bring hope. Viewers will follow the family into firefights, heroic rescues, and experience life-changing ministry.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "وثائقي"
+        ],
+        "duration": "01:36:59"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.5GB",
+                "vid": "M5bFtpHbEz8"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "697.0MB",
+                "vid": "PlF3zTgOOzM"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "378.0MB",
+                "vid": "fVDyG68CaS8"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "229.9MB",
+                "vid": "FXvoA7-ovhA"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "137.7MB",
+                "vid": "UlN9jxQ0vfY"
+            }
+        ],
+        "name": "The Scientist",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZVEVtYnZOdnZSY21id2ZOcGJ4dmN4.jpg",
+        "story": "Steve struggles to care for his wife who has only a few weeks to live. While trying to stay strong, Steve tries to develop a cure by ignoring all legal and moral limits with his treatment methods.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "رعب"
+        ],
+        "duration": "01:33:38"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "3.6GB",
+                "vid": "M9FPJxFt57E"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.5GB",
+                "vid": "Z7dnbDZ4uug"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "655.1MB",
+                "vid": "IBjWz8Y3ed0"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "392.4MB",
+                "vid": "cUdK6VpMnW0"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "236.5MB",
+                "vid": "WUbmPSy4WkA"
+            }
+        ],
+        "name": "Ludo",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBUYm1tbWpFY21teG1FbGxtam1FYQ.jpg",
+        "story": "A dark comedy anthology, which was supposed to be center on unavoidable jeopardize of life and has four different stories set in a quintessential Indian metro.",
+        "lang": "الهندية   ",
+        "country": "    الهند",
+        "sections": [
+            "اكشن ",
+            " كوميديا ",
+            " جريمة ",
+            " دراما"
+        ],
+        "duration": "02:30:15"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.5GB",
+                "vid": "eMYAHfdnsvY"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.1GB",
+                "vid": "M_8H32nciJQ"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "516.5MB",
+                "vid": "Kh_FpGh3Btk"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "301.6MB",
+                "vid": "V4WP3IOlMvE"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "178.3MB",
+                "vid": "LskBhXA8qQk"
+            }
+        ],
+        "name": "Fireball: Visitors from Darker Worlds",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBIY21ibWFjdmNtdm1tbXZtZk5tbUU.jpg",
+        "story": "A new documentary from Werner Herzog about meteors and comets and their influence on ancient religions and other cultural and physical impacts they've had on Earth.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "وثائقي"
+        ],
+        "duration": "01:37:43"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "3.3GB",
+                "vid": "CD7c8AYTnKI"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.6GB",
+                "vid": "JXTkSlDH5Oo"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "719.1MB",
+                "vid": "ZQw6xLFyCA4"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "411.7MB",
+                "vid": "d1cpcruLSh4"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "245.0MB",
+                "vid": "B49PV7NP9CY"
+            }
+        ],
+        "name": "Jingle Jangle: A Christmas Journey",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBIY21FbUVFY3Z3YXdkVGJjdHds.jpg",
+        "story": "An imaginary world comes to life in a holiday tale of an eccentric toymaker, his adventurous granddaughter, and a magical invention that has the power to change their lives forever.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "عائلي ",
+            " خيال ",
+            " موسيقي"
+        ],
+        "duration": "02:04:18"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "3.2GB",
+                "vid": "e1RNyER5rvU"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.1GB",
+                "vid": "WMoriFuDBSo"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "454.7MB",
+                "vid": "XwfcKmdi1vI"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "267.6MB",
+                "vid": "FGmc17eFK3s"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "165.6MB",
+                "vid": "c8EHo2ZSkYk"
+            }
+        ],
+        "name": "The Illustrator",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTHROcG9SY21FY05qdk5FbW1Qdnc.jpg",
+        "story": "In a post-apocalyptic Miami, a young woman clashes with her secretive and enigmatic boss in a divided America where one totalitarian political party reigns.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "دراما"
+        ],
+        "duration": "01:50:55"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.8GB",
+                "vid": "DIfTOJ4LHz0"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "764.3MB",
+                "vid": "ZJQyplX-n7E"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "416.3MB",
+                "vid": "XjoJoRLzuk8"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "257.1MB",
+                "vid": "N_WEZpohjPg"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "150.5MB",
+                "vid": "BgO4rmi-Q60"
+            }
+        ],
+        "name": "Sleepaway Slasher",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBUTE52RWNtdndDam1tdk5tbUVQ.jpg",
+        "story": "A group of budding filmmakers are invited to a competition at the site of an unfinished 80's cult movieand the death of its' infamous starlet. As the retreat progresses, something evil",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "رعب"
+        ],
+        "duration": "01:41:35"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.1GB",
+                "vid": "aLoCtNS2KVA"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.0GB",
+                "vid": "GkpZOVb8Ptk"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "487.2MB",
+                "vid": "UlEQ3b5To7U"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "280.8MB",
+                "vid": "TQMmzkT-Dqc"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "162.4MB",
+                "vid": "Qm-vR9M5rZU"
+            }
+        ],
+        "name": "Bigfoot Family",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZVGptRW1FbWJtYkVjbWp4dk5ITlR6UA.jpg",
+        "story": "Bigfoot Superstar   •   عائلة بيجفوت\nاستكمالًا لأحداث الجزء الأول، يستغل الأب شهرته الواسعة الجديدة من أجل صراعه ضد شركة بترول ألاسكا، ولكن حينما يختفي في ظروف غامضة، يذهب الابن والأم وحيوان الراكون ودب في مغامرة لإنقاذه في منطقة الشمال.",
+        "lang": "الفرنسية   ",
+        "country": "    بلجيكا",
+        "sections": [
+            "انيميشن ",
+            " عائلي"
+        ],
+        "duration": "01:28:40"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.9GB",
+                "vid": "X5TfEZR8qgk"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "888.0MB",
+                "vid": "Ni6h2hbNe58"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "434.0MB",
+                "vid": "bN9MV44NFJw"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "260.6MB",
+                "vid": "YN_BZ-uKIHk"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "159.7MB",
+                "vid": "JrpCducl4k4"
+            }
+        ],
+        "name": "2067",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTE5MY21FbWVjeG1FUG12bWZOSXg.jpg",
+        "story": "Subject 14 / Chronical\nتدور أحداث الفيلم في المستقبل، حيث يذهب رجل في مهمة مصيرية إلى المستقبل، حينما يصبح عليه إنقاذ عالم يحتضر بأكمله، بعد أن صار هواء الأرض غير صالح للتنفس.",
+        "lang": "الانجليزية   ",
+        "country": "    استراليا",
+        "sections": [
+            "خيال علمي"
+        ],
+        "duration": "01:54:19"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.4GB",
+                "vid": "Ty-3qNziDlU"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "756.7MB",
+                "vid": "GRYycIRWNWY"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "329.5MB",
+                "vid": "OG5s-3BGw1Y"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "204.9MB",
+                "vid": "IDucjCiCD_I"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "120.9MB",
+                "vid": "N_y_pp1eQuk"
+            }
+        ],
+        "name": "The Life Ahead",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBZam1UYkVjbUxjbXNqd0xOdm1n.jpg",
+        "story": "La vita davanti a sé / Madame Rosa y Momo   •   الحياة المقبلة\nعلى أحد الشواطئ الإيطالية، تستقبل امرأة ناجية من محارق الهولوكوست الخاصة بهتلر فتى مراهقة، حيث تسعى روز لرعاية الطفلالبالغ من العمر 12 عامًا، والذي حاول سرقتها من قبل.",
+        "lang": "الايطالية   ",
+        "country": "    ايطاليا",
+        "sections": [
+            "دراما"
+        ],
+        "duration": "01:35:03"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.5GB",
+                "vid": "cvu-H80nzIY"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "752.7MB",
+                "vid": "RZfv3iU9mQM"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "316.1MB",
+                "vid": "Qr3uSegW8JQ"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "198.7MB",
+                "vid": "BxIfMnvhKfk"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "115.5MB",
+                "vid": "WNKNZERQUoQ"
+            }
+        ],
+        "name": "The New Mutants",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTGNtdm1qbWp2UmNtRW1ZcGJtWXp4eA.jpg",
+        "story": "X-Men: The New Mutants   •   المتحولون الجدد\nيتناول الفيلم قصة المتحولين الجدد الذين يشكلون الدفعة الأولى المتخرجة من مدرسة تشارلز زافييه الشهير بالبروفيسور إكس.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "اكشن ",
+            " رعب ",
+            " خيال علمي"
+        ],
+        "duration": "01:34:05"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.2GB",
+                "vid": "VaP3y6kQjRI"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "602.7MB",
+                "vid": "AdiZ5dJhGvs"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "259.5MB",
+                "vid": "GnkCw8EIA3g"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "170.4MB",
+                "vid": "YuKPw2sfMOY"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "105.8MB",
+                "vid": "Q7ERVGkldoA"
+            }
+        ],
+        "name": "The Complex: Lockdown",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTGNtSGNtWUVFY1B3VHZtYm1JUG1ibXo.jpg",
+        "story": "After a major bio-weapon attack on London, two scientists debate whether to save a suspected terrorists life. However assassins have infiltrated the building, and soon our scientists find themselves with time, and options, running out",
+        "lang": "الانجليزية   ",
+        "country": "    المملكة المتحدة",
+        "sections": [
+            "خيال علمي"
+        ],
+        "duration": "01:18:55"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.1GB",
+                "vid": "KO2q6nNr_JY"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "864.2MB",
+                "vid": "LV8bmYVb54o"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "471.1MB",
+                "vid": "alq36x1yN-E"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "298.4MB",
+                "vid": "RRLavgYg0gk"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "173.6MB",
+                "vid": "OrPl03g4wc4"
+            }
+        ],
+        "name": "Blood from Stone",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBwcFRtRWN3VG1tWXZQY1VMdw.jpg",
+        "story": "The old era of vampires has been forced into darkness, yet they are drawn to the dawning of a new era for themselves with a longing to be free of their savage curse.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "رومانسية ",
+            " اثارة"
+        ],
+        "duration": "01:56:55"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1,014.8MB",
+                "vid": "bmgf6bPimAc"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "429.2MB",
+                "vid": "da9NhKYJSjs"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "237.4MB",
+                "vid": "HDANbdZGFn0"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "144.0MB",
+                "vid": "NEk1MgMbMbg"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "99.5MB",
+                "vid": "QTj6FUgQ_WY"
+            }
+        ],
+        "name": "Vampire Virus",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZcHZtcG1tRW1hY0tQd1RFbWJ4Y052.jpg",
+        "story": "A young woman contracts a deadly virus after an unusual sexual encounter, and soon develops a taste for human blood.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "اثارة"
+        ],
+        "duration": "01:20:01"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.5GB",
+                "vid": "IPrdYyZNk7k"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "759.5MB",
+                "vid": "MYAFmmCbtNo"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "337.4MB",
+                "vid": "N-YFShoM1PU"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "205.1MB",
+                "vid": "IuqhD9G4JYQ"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "129.9MB",
+                "vid": "ItFQNUst1Ok"
+            }
+        ],
+        "name": "Asteroid-a-Geddon",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTE5qdmNtbW1tRWNtbXZjbXBFbVlibWptSQ.jpg",
+        "story": "A global scientific summit debates and fails on a plan to stop a massive asteroid heading straight for Earth, with all countries blaming each other for the impeding disaster. With",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "اكشن"
+        ],
+        "duration": "01:27:07"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.6GB",
+                "vid": "bHih85Rhapg"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "804.4MB",
+                "vid": "GVtCYvU8l4M"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "345.0MB",
+                "vid": "QBgJ6JRxuR0"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "210.9MB",
+                "vid": "eOAW-kiC0qs"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "119.6MB",
+                "vid": "Awors9cs7WM"
+            }
+        ],
+        "name": "Toys of Terror",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTE5qdmNtSGNFY21iY2t3bGxtWXZtbQ.jpg",
+        "story": "Just before Christmas, young Zoe, her brother Franklin and their family move into a secluded mansion with a dark past. While the adults focus on renovating the place, the bored kids find a",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "رعب"
+        ],
+        "duration": "01:29:16"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.2GB",
+                "vid": "aKgyVulL1Ic"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.1GB",
+                "vid": "C1YZPo-CZ_Q"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "475.9MB",
+                "vid": "bCyZj5sxqFs"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "274.2MB",
+                "vid": "JywjyfkWWac"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "153.4MB",
+                "vid": "CVzhnEBiQx8"
+            }
+        ],
+        "name": "S.O.S. Survive or Sacrifice",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBUam1vY0VjdmNtYm1ZSVBtYm12bWI.jpg",
+        "story": "Two sisters living separate lives on different continents are reunited on a Mediterranean Island. The two barely have time to bond and revive family ties as Kate, the elder, meets a group",
+        "lang": "الانجليزية   ",
+        "country": "    قبرص",
+        "sections": [
+            "مغامرة ",
+            " اثارة"
+        ],
+        "duration": "01:26:57"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.2GB",
+                "vid": "TDpz5i6u3VE"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "647.7MB",
+                "vid": "RGM6kiUlyN4"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "286.2MB",
+                "vid": "YpKzqclQgU0"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "182.9MB",
+                "vid": "bhwLi0thjUE"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "108.2MB",
+                "vid": "Dkig6jMPsbU"
+            }
+        ],
+        "name": "The Craft: Legacy",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTE5MdHRSY21qbVRqbWhMY3dUSQ.jpg",
+        "story": "A group of high school students form a coven of witches. A sequel to the 1996 film, \"The Craft\".",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "دراما ",
+            " خيال ",
+            " رعب"
+        ],
+        "duration": "01:34:23"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.1GB",
+                "vid": "f5etClH7SNo"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "980.8MB",
+                "vid": "YmYFQA1m0Pc"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "438.0MB",
+                "vid": "RH7NR7RDBy0"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "262.8MB",
+                "vid": "fdWOnWWC1ME"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "164.4MB",
+                "vid": "G7F7rYdLNIk"
+            }
+        ],
+        "name": "The Broken Hearts Gallery",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBUam1tbWVjYW1FeHdUbXdMTno.jpg",
+        "story": "94%\n من المشاهدين اعجبهم هذا الفيلم  ",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "كوميديا ",
+            " رومانسية"
+        ],
+        "duration": "01:48:51"
+    },
+    {
+        "qualities": [
+            {
+                "name": "HD 720p ",
+                "size": "1.3GB",
+                "vid": "cgPnz7CY2RU"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "457.6MB",
+                "vid": "IQmRC0f-chY"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "260.6MB",
+                "vid": "CUDjVUfCkyc"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "156.4MB",
+                "vid": "H9hjpBoHH5I"
+            }
+        ],
+        "name": "Bad Hair",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBUam1ZYkVjbUl4YW12dmNtdndUbQ.jpg",
+        "story": "In 1989 an ambitious young woman gets a weave in order to succeed in the image-obsessed world of music television. However, her flourishing career may come at a great cost when she realizes that her new hair may have a mind of its own.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "كوميديا ",
+            " رعب"
+        ],
+        "duration": "01:42:30"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.7GB",
+                "vid": "Yb07haHLw9E"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "863.0MB",
+                "vid": "TlvuIKFF2Mg"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "373.4MB",
+                "vid": "CLWCsY4rZw0"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "221.4MB",
+                "vid": "FpAD1NVLGfU"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "130.8MB",
+                "vid": "N06HqwIY_L8"
+            }
+        ],
+        "name": "Middleton Christmas",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBUam1URUVjbXZtRWxtcG13VGptRQ.jpg",
+        "story": "In a small town, high-school dean Alana and her vivacious teenage daughter Samantha plan a holiday concert to save the school with the help of the new maintenance man, Army veteran Johnny,",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "رومانسية"
+        ],
+        "duration": "01:31:09"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.3GB",
+                "vid": "A4KhlHEC-OE"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.2GB",
+                "vid": "dUEMfxcdrmo"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "515.1MB",
+                "vid": "dpJQNHbKClc"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "296.3MB",
+                "vid": "GhTM55JQo9Y"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "178.3MB",
+                "vid": "FjPfqzGwKHg"
+            }
+        ],
+        "name": "Kalashnikov",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZcFlFbWp2TmJFY21JUG1qbXB2Y05qY3c.jpg",
+        "story": "Wounded as tank driver in 1941 during WWII, Kalashnikov sees the latest Soviet machine gun fail. As he's also an inventor, he starts looking for improvements and in 1947 ends up with AK-47 assault rifle.",
+        "lang": "الروسية   ",
+        "country": "    روسيا",
+        "sections": [
+            "سيرة ذاتية ",
+            " حرب"
+        ],
+        "duration": "01:44:34"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.2GB",
+                "vid": "MHP25mDOhrU"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "651.5MB",
+                "vid": "EGML1GE4m3E"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "280.8MB",
+                "vid": "T3jsxJ1uBHk"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "186.1MB",
+                "vid": "Zz1I23mAAIU"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "108.9MB",
+                "vid": "WgEjL7UsPlk"
+            }
+        ],
+        "name": "The Call",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTE5tbXZtcGJFY2NOam1qbVl2YW1ZYg.jpg",
+        "story": "In the fall of 1987, a group of small-town friends must survive the night in the home of a sinister couple after a tragic accident brings them to the couple's door.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "رعب ",
+            " اثارة"
+        ],
+        "duration": "01:37:19"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1,021.3MB",
+                "vid": "fDAxjXYiXZA"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "565.7MB",
+                "vid": "aZ0xlXLkm5M"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "245.4MB",
+                "vid": "ey_HyX-z3xM"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "169.7MB",
+                "vid": "YV7oVKdzzQg"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "98.8MB",
+                "vid": "dmy4ggb805I"
+            }
+        ],
+        "name": "Safeguard",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21MY212dk52bWJtRUVjbUVjTnpQUGxtRXg.jpg",
+        "story": "When a Japanese restaurant is extorted by the Russian Mafia in London, a father takes matters into his own hands to protect his family and save their business at all costs.",
+        "lang": "الانجليزية   ",
+        "country": "    المملكة المتحدة",
+        "sections": [
+            "اكشن ",
+            " مغامرة ",
+            " اثارة"
+        ],
+        "duration": "01:34:51"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.6GB",
+                "vid": "fCqxDM4j1lM"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "841.5MB",
+                "vid": "aFPpFgKkNU4"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "370.6MB",
+                "vid": "JmhLxQtN0kM"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "231.7MB",
+                "vid": "K1Tq93vbO9c"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "139.2MB",
+                "vid": "B-x-aCUljVo"
+            }
+        ],
+        "name": "Words on Bathroom Walls",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZVGptb052bWVjdmN3VEVtdm1teHhtYg.jpg",
+        "story": "Diagnosed with a mental illness halfway through his senior year of high school, a witty, introspective teen struggles to keep it a secret while falling in love with a brilliant classmate who inspires him to not be defined by his condition.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "دراما ",
+            " رومانسية"
+        ],
+        "duration": "01:50:38"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "2.9GB",
+                "vid": "L9_6s0yWhvI"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.4GB",
+                "vid": "Z8n--mUh6Ak"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "681.2MB",
+                "vid": "EF35wizFfIs"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "385.6MB",
+                "vid": "I-pdXahxazE"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "233.7MB",
+                "vid": "eZ6_x6Cmwwo"
+            }
+        ],
+        "name": "Cosmoball",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21MTnZ2TlRFbUVFY21wcEVtam1UTGNtbQ.jpg",
+        "story": "Vratar galaktiki\nAn enormous spaceship hovers over Earth-this is a stadium, which hosts sports events that resemble soccer but at mind-boggling speeds. The name of the game is cosmoball.",
+        "lang": "الروسية   ",
+        "country": "    روسيا",
+        "sections": [
+            "اكشن ",
+            " خيال علمي ",
+            " رياضة"
+        ],
+        "duration": "01:58:09"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.2GB",
+                "vid": "NPvEoviFhlQ"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "593.6MB",
+                "vid": "CdbB36JEOzk"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "240.7MB",
+                "vid": "NR-sODz3pTs"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "155.7MB",
+                "vid": "DwwANwCLYQU"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "92.1MB",
+                "vid": "MhllVC4kRNU"
+            }
+        ],
+        "name": "Haunting of the Mary Celeste",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTE52dmNtVHZFY3ZjbUVQbXZQbXphbW0.jpg",
+        "story": "Rachel, a concerned researcher, and her team have set out to sea to prove that the disappearance of a family and crew from a merchant ship was for reasons having to do with the supernatural",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "رعب"
+        ],
+        "duration": "01:13:59"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.7GB",
+                "vid": "ICcsr_NqCtw"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "827.1MB",
+                "vid": "KJnqm-Lqk6I"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "357.7MB",
+                "vid": "T27jxg7u3Bc"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "220.5MB",
+                "vid": "Vn801c87hnI"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "136.4MB",
+                "vid": "V919cixkMT8"
+            }
+        ],
+        "name": "Expulsion",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTE5ibVl2dmNFY21tbUlQY05Fd1R2bA.jpg",
+        "story": "Beaten by their own curiosity, Scott and Vincent begin to sneak their work home with them. As their days and nights unfold they begin to discover that others seek their tech to advance their own agendas.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "دراما ",
+            " خيال علمي ",
+            " اثارة"
+        ],
+        "duration": "01:40:04"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.1GB",
+                "vid": "e85J2P9-K_A"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "554.4MB",
+                "vid": "OYlPyl5k0qY"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "224.0MB",
+                "vid": "QqhiuTc137s"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "145.2MB",
+                "vid": "DPNU4pJInDU"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "87.8MB",
+                "vid": "aL9hqS6oD-A"
+            }
+        ],
+        "name": "The Retreat",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBUYm1FbW1FY21iY05qbVlFbXZtdnZ3.jpg",
+        "story": "A man finds himself alone and lost after a horrifying encounter with a monster during a backpacking trip into the Adirondack High Peaks. Now, he must fight for his life, and sanity, as he",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "رعب"
+        ],
+        "duration": "01:27:30"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.2GB",
+                "vid": "N-im-c_C5KU"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "573.5MB",
+                "vid": "e4K3gmjIcAk"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "277.5MB",
+                "vid": "FWD_CBNo_Go"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "188.9MB",
+                "vid": "YhbkJz7a5HM"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "115.6MB",
+                "vid": "J12KrY6q5mk"
+            }
+        ],
+        "name": "The Invisible Man",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZcFlqbWptTFJjbVRzam1ZWW1tdlA.jpg",
+        "story": "الرجل الخفي\nتتناول العمل قصة امرأة تدعى سيسيليا، حيث تتلقى خبر انتحار حبيبها السابق، وبينما تحاول بناء حياتها من جديد تكتشف أن حبيبها قد يكون ما يزال على قيد الحياة بصورة أو بأخرى.",
+        "lang": "الانجليزية   ",
+        "country": "    كندا",
+        "sections": [
+            "دراما ",
+            " رعب ",
+            " غموض ",
+            " خيال علمي ",
+            " اثارة"
+        ],
+        "duration": "02:04:24"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.5GB",
+                "vid": "WWp1txpU9yg"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "775.8MB",
+                "vid": "ELLTcTF2BJM"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "338.8MB",
+                "vid": "NRDKFsCDWtc"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "203.6MB",
+                "vid": "RI1ZTfIO1XI"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "118.9MB",
+                "vid": "M5dxfwJQbRY"
+            }
+        ],
+        "name": "Spell",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBUWUVtYkVjdk5wYnZjY3ROYm1F.jpg",
+        "story": "تعويذة\nفي إطار من الرعب والإثارة، يواجه رجل مصيرًا مروعًا في ريف أبالاتشي، حينما يصطدم بساحرة الهودو، ليصبح عليه التحرر من السحر الأسود وإنقاذ نفسه وعائلته من طقوس شريرة.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "رعب ",
+            " اثارة"
+        ],
+        "duration": "01:31:26"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "3.3GB",
+                "vid": "NjUjDE7dKy8"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.5GB",
+                "vid": "cFzx0sbvgCk"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "708.7MB",
+                "vid": "DRSW83sWTB8"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "412.1MB",
+                "vid": "H4gjXS3UJX0"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "242.3MB",
+                "vid": "cJKhBi_fpe8"
+            }
+        ],
+        "name": "Citation",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTE5qbWJtcHZFY21FbW5vTnB2bUJ3.jpg",
+        "story": "A bright student in Nigeria takes on the academic establishment when she reports a popular professor who tried to rape her. Based on real events.",
+        "lang": "الانجليزية   ",
+        "country": "    نيجيريا",
+        "sections": [
+            "دراما ",
+            " اثارة"
+        ],
+        "duration": "03:51:01"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.4GB",
+                "vid": "ORKvBTw5Z2A"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "759.0MB",
+                "vid": "YEIFt7QVUfs"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "392.9MB",
+                "vid": "Ie4tbRexVIM"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "245.0MB",
+                "vid": "NY-oye8l0hE"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "157.5MB",
+                "vid": "TU0pcidZNSg"
+            }
+        ],
+        "name": "Combat Wombat",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTHROdnZOdWNtRWFtRXZjbVlqbWptYg.jpg",
+        "story": "كومبات وامبات\nتدور أحداث الفيلم حول ماجي ديجنز التي تتحول إلى امرأة أعجوبة، وتتحول عن غير قصد منها إلى بطلة قومية في المدينة التي تعيش فيها، وذلك بعد عملية إنقاذ غير عادية.",
+        "lang": "الانجليزية   ",
+        "country": "    استراليا",
+        "sections": [
+            "انيميشن ",
+            " عائلي ",
+            " خيال"
+        ],
+        "duration": "01:25:33"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.1GB",
+                "vid": "ReUpsAij0Us"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "579.6MB",
+                "vid": "KXkX5Py0Nns"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "254.2MB",
+                "vid": "TKZwIHSEOi4"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "160.3MB",
+                "vid": "Uuo8z2fOgPE"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "96.2MB",
+                "vid": "YkDqPPR0uF8"
+            }
+        ],
+        "name": "A Werewolf in England",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZWXBvTnBiRWNsbUJ3bHhsbW1tag.jpg",
+        "story": "A Parish Councillor and criminal take refuge at a remote countryside Inn, unaware that flesh-hungry werewolves inhabit the surrounding woodlands and are ready to feed.",
+        "lang": "الانجليزية   ",
+        "country": "    المملكة المتحدة",
+        "sections": [
+            "رعب"
+        ],
+        "duration": "01:25:28"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "3.4GB",
+                "vid": "GIO2jtHsoDY"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "1.5GB",
+                "vid": "bMzDam7aOQw"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "706.4MB",
+                "vid": "QIiJtXl8YQY"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "413.8MB",
+                "vid": "eu6K99lERrI"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "255.3MB",
+                "vid": "CuN7Txkf89g"
+            }
+        ],
+        "name": "The Glorias",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTE5tbW1tRW1qRWNtcG1tYm1ZYm1ieG1n.jpg",
+        "story": "The story of feminist icon Gloria Steinem's itinerant childhood and its influence on her life as a writer, activist and organizer for women's rights worldwide.",
+        "lang": "الانجليزية   ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "سيرة ذاتية ",
+            " دراما ",
+            " تاريخ"
+        ],
+        "duration": "02:27:03"
+    },
+    {
+        "qualities": [
+            {
+                "name": "Full HD 1080p ",
+                "size": "1.7GB",
+                "vid": "HIAJ372o1RU"
+            },
+            {
+                "name": "HD 720p ",
+                "size": "901.1MB",
+                "vid": "R2gbubqs-8E"
+            },
+            {
+                "name": "SD 480p ",
+                "size": "397.4MB",
+                "vid": "Ax0ahvjtngk"
+            },
+            {
+                "name": "SD 360p ",
+                "size": "247.3MB",
+                "vid": "FzZzZcyLz3w"
+            },
+            {
+                "name": "Low 240p ",
+                "size": "145.5MB",
+                "vid": "B-e_i_h_3pc"
+            }
+        ],
+        "name": "Sno Babies",
+        "year": "2020",
+        "thumbnail": "https://i.egycdn.com/pic/WmFwZndlY21ZTE5MTm1tYWN2TkV2Tm1tcGR6YQ.jpg",
+        "story": "SNO BABIES depicts the grim realities of addiction and its effects on families. Kristen and Hannah are likeable, college-bound teens - and heroin addicts - hiding their plight behind the façade of middle-class suburbia.",
+        "lang": "  ",
+        "country": "    الولايات المتحدة الأمريكية",
+        "sections": [
+            "دراما"
+        ],
+        "duration": "01:48:49"
+    }
+]
