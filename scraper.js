@@ -4,7 +4,7 @@ const fs = require("fs");
 const { default: axios } = require('axios');
 
 const logger = (func, msg) => {
-    console.log(`${func}: ` + msg)
+    // console.log(`${func}: ` + msg)
 }
 async function getHrefs(page, selector) {
     return await page.$$eval(selector, anchors => [].map.call(anchors, a => a.href));
