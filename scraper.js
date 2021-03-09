@@ -74,7 +74,7 @@ Scraper.prototype.start = async function () {
     const newProxyUrl = await proxyChain.anonymizeProxy(oldProxyUrl);
     this.browser = await puppeteer.launch({
         headless: true,
-        slowMo: 300,
+        slowMo: 250,
         args: [`--proxy-server=${newProxyUrl}`,'--no-sandbox', '--disable-setuid-sandbox'],
         defaultViewport: null
     })
@@ -135,14 +135,14 @@ Scraper.prototype.clickMovie = async function () {
         }
         this.movieNumber++
     }
-    await waitFor(1000)
+    await waitFor(500)
     logger('clickMovie',`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
     await this.page.goto(`https://lake.egybest.kim/movies/?page=${this.pageNumber}`, { waitUntil: 'networkidle2', timeout:60000});
     this.sendMessage(`Open page=${this.pageNumber}, movie=${this.movieNumber}`)
     let stop = false
     await this.page.waitForSelector(`.movies a:nth-child(${this.movieNumber})`).catch(async ()=>{
         stop = true;
-        await waitFor(8000)
+        await waitFor(1000)
         this.moviesTries++
         this.movieNumber--
         this.clickMovie()
@@ -217,9 +217,9 @@ Scraper.prototype.closePage = async function (page) {
 }
 
 Scraper.prototype.onPageResponse = async function () {
-    await waitFor(1800)
+    await waitFor(1200)
     await this.closePageByIndex(1)
-    logger('onResponse','Page closed')
+    // logger('onResponse','Page closed')
     return this.getQualitiesUrls();
     // let timeout = setTimeout(async ()=>{
     //     await this.closePageByIndex(1)
