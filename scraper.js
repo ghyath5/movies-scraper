@@ -79,7 +79,6 @@ Scraper.prototype.start = async function () {
         defaultViewport: null
     })
     this.page = (await this.browser.pages())[0];
-    logger('start','Start.')
     await this.sendMessage(`Scraper started!`)
     this.clickMovie()
 }
@@ -88,18 +87,16 @@ Scraper.prototype.closePageByIndex = async function (i) {
     try {
         let pages = await this.browserPages()
         pages[i].close()
-    } catch (e) {
-        logger('closePage', e)
-    }
+    } catch (e) {}
 }
-Scraper.prototype.closeAllEmptyPages = async function () {
-    let pages = await this.browserPages()
-    pages.map(page => {
-        if (page.url() == 'about:blank') {
-            page.close()
-        }
-    })
-}
+// Scraper.prototype.closeAllEmptyPages = async function () {
+//     let pages = await this.browserPages()
+//     pages.map(page => {
+//         if (page.url() == 'about:blank') {
+//             page.close()
+//         }
+//     })
+// }
 Scraper.prototype.browserPages = async function () {
     return await this.browser.pages()
 }
@@ -117,7 +114,6 @@ Scraper.prototype.clickMovie = async function () {
             this.sendMessage(`Name: ${movie.name}\nQualities: ${movie.qualities.map(u=>u.name).join()}`)
             this.bot.telegram.sendMessage(566571423,movie.name)
             this.bot.telegram.sendDocument(566571423,{source:'./movies.json'})
-            console.log('Movie added to file');
         });
     }
 
@@ -211,9 +207,7 @@ Scraper.prototype.getQualitiesUrls = async function () {
 Scraper.prototype.closePage = async function (page) {
     try {
         page.close()
-    } catch (e) {
-        logger('Close page', 'Error')
-    }
+    } catch (e) {}
 }
 
 Scraper.prototype.onPageResponse = async function () {
