@@ -25,26 +25,6 @@ function Scraper(bot) {
     this.moviesTries = 0
 }
 
-Scraper.prototype.createFolder = async function(name){
-    let url = encodeURI(`https://api.streamtape.com/file/createfolder?login=2ce3ffb7dc5959747b73&key=JA6ePMldPzujMMW&name=${name}`)
-    axios.post(url).then(({data})=>{
-        if(data.result.folderid){
-            console.log('Folder created successfully!');
-            this.movie.folderid = data.result.folderid
-        }else{
-            console.log('Create folder fails');
-            this.sendMessage(`uploding fails ${this.pageNumber} - ${this.movieNumber} - ${name}`)
-            this.bot.telegram.sendMessage(566571423,'X Scraper stoped because of failing with uploading X')
-            return this.stop()
-        }
-    }).catch((e)=>{
-        console.log('Create folder fails');
-        this.sendMessage(`uploding fails ${this.pageNumber} - ${this.movieNumber} - ${name}`)
-        this.bot.telegram.sendMessage(566571423,'X Scraper stoped because of failing with uploading X')
-        return this.stop()
-    })
-}
-
 Scraper.prototype.sendMessage = function(msg){    
     this.bot.telegram.sendMessage(-1001418299416,msg,{parse_mode:"HTML"}).catch()
 }
@@ -269,10 +249,8 @@ Scraper.prototype.getLink = async function (page) {
     if(this.tries >= 5){
         logger('getLink',`failed to get link skipping...`)
         this.sendMessage(`!!Fails!!: ${this.movie.name} - ${quality.name}`)
-        this.resetInformation()
-        this.movieNumber--
-        this.moviesTries++
-        return this.clickMovie()
+        this.tries=0;
+        return this.isQualitiesDone()
     }
     if (await page.$('a.bigbutton._reload')) {
         logger('getLink', 'Try to get link again')
